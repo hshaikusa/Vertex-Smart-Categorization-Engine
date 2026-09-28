@@ -1,22 +1,31 @@
 #!/usr/bin/env python
 """Run the selector on any json with the case's structure.
 
-  OPENAI_API_KEY=... python run.py test.json                        # production path (prompt v2)
-  python run.py samples/train_50.json --backend heuristic           # offline baseline
-  python run.py samples/train_50.json --redecide samples/train_50.output.audit.json --conf 0.9
-                                                                    # re-apply decision rule to a saved audit: NO API calls
-  python run.py samples/train_50.json --subset holdout              # only the ~30% never-tuned-on products
+  python run.py --train                         # samples/train_50.json; metrics all + in-file 70/30
+  python run.py --test                          # held-out file; metrics all only (no fake dev/holdout)
+  python run.py --test path\\to\\file.json       # score this file as a test set
+  python run.py samples/train_50.json --backend heuristic
+  python run.py --train --subset holdout        # train file, hash-slice only (train-only)
 
 Writes <out>.json (input + llm_trusted_search_results), <out>.audit.json (verdicts, reasons),
 <out>.errors.json (every false/missed link with the model's reason). Prints metrics when the input has
-ground truth (`trusted_search_results`), overall and split into dev (70%) / holdout (30%).
-Split is a stable hash of the product key: tune prompts/thresholds looking at DEV errors only, then report HOLDOUT.
+ground truth (`trusted_search_results`). --train also prints the in-file hash split (dev 70% / holdout 30%)
+for prompt tuning. --test does not: the whole file is already held-out.
 """
 import argparse, hashlib, json, sys
+from pathlib import Path
 import env_loader  # noqa: F401  — loads OPENAI_API_KEY (and VERTEX_MODEL / VERTEX_CACHE_DIR) from .env
 from selector.pipeline import Config, SelectorPipeline, decide, assemble, GT_KEYS
 from selector.metrics import evaluate
 from selector.prompts import PROMPT_VERSION
+
+ROOT = Path(__file__).resolve().parent
+TRAIN_JSON = ROOT / "samples" / "train_50.json"
+TEST_JSON = ROOT / "samples" / "search_results_ground_truth_test.json"
+
+KEY_HELP = """OPENAI_API_KEY is not set. Put it in .env (OPENAI_API_KEY=...) or the environment.
+Cached products still run; uncached products fail closed.
+Or run offline: python run.py --train --backend heuristic"""
 
 
 # Purpose: deterministically assign a product to the "dev" (70%) or "holdout" (30%)
@@ -27,6 +36,25 @@ from selector.prompts import PROMPT_VERSION
 # Output: str - "dev" or "holdout".
 def split_of(key: str) -> str:
     return "holdout" if int(hashlib.md5(key.encode()).hexdigest(), 16) % 10 < 3 else "dev"
+
+
+def resolve_input(train: bool, test: bool, input_path: str | None, subset: str = "all") -> tuple[str, str, bool]:
+    """Pick the JSON path and whether to print the in-file 70/30 hash split.
+
+    Returns (path, eval_set, report_hash_split). eval_set is 'train' | 'test' | 'custom'.
+    --subset is train-only. --test never reports hash-split 'dev'/'holdout' metrics.
+    """
+    if train and test:
+        sys.exit("error: --train and --test are mutually exclusive")
+    if test and subset != "all":
+        sys.exit("error: --subset is train-only (in-file 70/30 hash split). Do not use it with --test.")
+    if train:
+        return str(input_path or TRAIN_JSON), "train", True
+    if test:
+        return str(input_path or TEST_JSON), "test", False
+    if not input_path:
+        sys.exit("error: provide an input JSON path, or --train / --test")
+    return str(input_path), "custom", True
 
 
 # Purpose: pull a product's human ground-truth set straight out of the raw input dict
@@ -49,7 +77,8 @@ def gt_of(v):
 # Output: dict - {product_key.strip(): {split, human, model, product_is_specific, errors:
 #   [...]}}, containing only products that both have ground truth and have at least one
 #   mismatch. Products with no ground truth, or a perfect match, are omitted.
-def error_report(out, audit):
+def error_report(out, audit, eval_set: str = "custom"):
+    """eval_set 'test' labels every row split=test; train/custom keep the in-file hash split."""
     rep = {}
     for k, v in out.items():
         g = gt_of(v)
@@ -64,7 +93,8 @@ def error_report(out, audit):
                           "title": v["search_results"][str(i)].split("\n")[0][7:90],
                           "verdict": a.get("verdict"), "variant_evidence": a.get("variant_evidence"),
                           "confidence": a.get("confidence"), "reason": a.get("reason")})
-        rep[k.strip()] = {"split": split_of(k), "human": sorted(g), "model": sorted(p),
+        split_label = "test" if eval_set == "test" else split_of(k)
+        rep[k.strip()] = {"split": split_label, "human": sorted(g), "model": sorted(p),
                           "product_is_specific": audit.get(k, {}).get("product_is_specific"), "errors": items}
     return rep
 
@@ -75,11 +105,13 @@ def error_report(out, audit):
 # Input: data - the input JSON (may or may not carry ground truth); out - the pipeline's
 #   final output dict.
 # Output: None (prints to stdout only).
-def print_metrics(data, out):
+def print_metrics(data, out, report_hash_split: bool = True):
     m = evaluate(data, out)
     if not m.get("scored", True):
         print("(no ground truth in input - skipping metrics)"); return
     print("metrics (all):", json.dumps({k: v for k, v in m.items() if k != "products_with_false_links"}, indent=1))
+    if not report_hash_split:
+        return
     for s in ("dev", "holdout"):
         sub = {k: v for k, v in data.items() if split_of(k) == s}
         if sub:
@@ -150,7 +182,13 @@ def print_repeat_report(data, audit, cfg):
 #   <out>.audit.json, and (if there were any errors) <out>.errors.json to disk.
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("input"); ap.add_argument("--out", default=None)
+    ap.add_argument("input", nargs="?", default=None,
+                    help="Input JSON. Optional if --train or --test is set.")
+    ap.add_argument("--train", action="store_true",
+                    help="Use samples/train_50.json (or INPUT). Print all + in-file hash dev/holdout.")
+    ap.add_argument("--test", action="store_true",
+                    help="Use the held-out test JSON (or INPUT). Print all metrics only — no hash 70/30.")
+    ap.add_argument("--out", default=None)
     ap.add_argument("--backend", default="openai", choices=["openai", "heuristic"])
     ap.add_argument("--model", default=None)
     ap.add_argument("--conf", type=float, default=None, help="LLM confidence threshold (default 0.70)")
@@ -161,9 +199,12 @@ def main():
     ap.add_argument("--vote-min", type=int, default=None, help="votes needed to trust a link (default: strict majority)")
     ap.add_argument("--batch-submit", action="store_true", help="OpenAI Batch API: upload requests, print batch id, exit")
     ap.add_argument("--batch-collect", default=None, metavar="BATCH_ID", help="fetch a finished batch and produce the normal outputs + metrics")
-    ap.add_argument("--subset", default="all", choices=["all", "dev", "holdout"])
+    ap.add_argument("--subset", default="all", choices=["all", "dev", "holdout"],
+                    help="Train-only: run a hash slice of the train file (dev ~70%% / holdout ~30%%).")
     ap.add_argument("--workers", type=int, default=8); ap.add_argument("--no-cache", action="store_true")
     a = ap.parse_args()
+
+    a.input, eval_set, report_hash_split = resolve_input(a.train, a.test, a.input, a.subset)
 
     try:
         with open(a.input, encoding="utf-8") as f:
@@ -210,12 +251,13 @@ def main():
     else:
         out, audit, stats = SelectorPipeline(cfg).run(data)
         stats["prompt_version"] = PROMPT_VERSION
+    stats["eval_set"] = eval_set
     json.dump(out, open(base + ".json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     json.dump(audit, open(base + ".audit.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False, default=str)
-    rep = error_report(out, audit)
+    rep = error_report(out, audit, eval_set)
     if rep: json.dump(rep, open(base + ".errors.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     print("ops:", json.dumps(stats))
-    print_metrics(data, out)
+    print_metrics(data, out, report_hash_split=report_hash_split)
     print_repeat_report(data, audit, cfg)
     print(f"wrote {base}.json, {base}.audit.json" + (f", {base}.errors.json" if rep else ""))
 

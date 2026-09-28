@@ -1,38 +1,62 @@
 {
-  "CEEBOO Refill Ink Bottle Replacement for Epson 502, 2 Black,Cyan,Magenta,Yellow, 5 Bottles ": {
+  "Onions Spring Organic ": {
     "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "CEEBOO Refill Ink Bottle Replacement for Epson 502 Black Cyan Magenta Yellow",
+    "product_is_specific": false,
+    "normalized_product": "Organic Spring Onions",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed in title and snippet"
+        "confidence": 0.9,
+        "reason": "title and snippet confirm organic spring onions"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and product variant confirmed in snippet"
-      },
-      "3": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
         "confidence": 0.8,
-        "reason": "brand missing, only Epson 502 ink bottles generic listing"
+        "reason": "different onion type (green onions) and no brand"
       },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "no brand, generic compatible refill ink bottles"
-      },
-      "5": {
+      "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand and product variant confirmed in title and snippet"
+        "reason": "title confirms organic white spring onion"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "title confirms organic spring onion"
+      },
+      "5": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "organic red spring onions differ in variant (color)"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "spring onion tea is a different product type"
+      },
+      "7": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "discussion about spring onions, not product page"
+      },
+      "8": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "organic juice with onion, not spring onion product"
+      },
+      "9": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "juice product with red onion flavor, not spring onion"
       }
     }
   },
@@ -238,67 +262,6 @@
       }
     }
   },
-  "Onions Spring Organic ": {
-    "status": "ok",
-    "product_is_specific": false,
-    "normalized_product": "Organic Spring Onions",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "title and snippet confirm organic spring onions"
-      },
-      "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "different onion type (green onions) and no brand"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "title confirms organic white spring onion"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "title confirms organic spring onion"
-      },
-      "5": {
-        "verdict": "different_variant",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "organic red spring onions differ in variant (color)"
-      },
-      "6": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "spring onion tea is a different product type"
-      },
-      "7": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "discussion about spring onions, not product page"
-      },
-      "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "organic juice with onion, not spring onion product"
-      },
-      "9": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "juice product with red onion flavor, not spring onion"
-      }
-    }
-  },
   "Hemp Cream 2 Pack for Stress Support, Achy Muscle Relief, Fast Acting, Sooth Arthritis & Common Athletic Injuries, 2 (1oz) ": {
     "status": "ok",
     "product_is_specific": false,
@@ -368,108 +331,40 @@
       }
     }
   },
-  "Fruity Pebbles Marshmallow Treats Cereal Bars 0.78 oz Cereal Bars, Marshmallow, Treats": {
+  "CEEBOO Refill Ink Bottle Replacement for Epson 502, 2 Black,Cyan,Magenta,Yellow, 5 Bottles ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Post Fruity Pebbles Treats Marshmallow Cereal Bars",
+    "normalized_product": "CEEBOO Refill Ink Bottle Replacement for Epson 502 Black Cyan Magenta Yellow",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
+        "reason": "brand and exact product variant confirmed in title and snippet"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
+        "confidence": 0.9,
+        "reason": "brand and product variant confirmed in snippet"
       },
       "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand missing, only Epson 502 ink bottles generic listing"
       },
       "4": {
         "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.9,
-        "reason": "product type and variant differ (generic marshmallow cereal bars)"
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "no brand, generic compatible refill ink bottles"
       },
       "5": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
-      },
-      "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.5,
-        "reason": "no brand or product variant stated, unrelated product listing"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant all confirmed"
-      },
-      "10": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.5,
-        "reason": "no brand stated, generic product listing"
-      },
-      "6": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
         "confidence": 0.9,
-        "reason": "product type and variant differ (generic marshmallow cereal bars)",
-        "dup_of": 4
-      }
-    }
-  },
-  "Compatible Epson 502 T502 Refill Ink Bottles Replacement for Ecotank ET-2750 ET-3750 ET-4750 ET-2760 ET-3760 ET-4760 ET-2700 ET-3700 ET-3710 ET-15000 ST-2000 ST-3000 ST-4000 - 4 Pack ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Compatible Epson 502 T502 Refill Ink Bottles",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "brand compatible, product type and variant match"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "exact title match with variant and brand"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "brand compatible, product type and variant match"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different product type and generic listing"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "brand compatible, product type and variant match"
+        "reason": "brand and product variant confirmed in title and snippet"
       }
     }
   },
@@ -543,71 +438,108 @@
       }
     }
   },
-  "NATURES TRUTH ESSENTIAL OIL FRANKINCENSE ": {
+  "Compatible Epson 502 T502 Refill Ink Bottles Replacement for Ecotank ET-2750 ET-3750 ET-4750 ET-2760 ET-3760 ET-4760 ET-2700 ET-3700 ET-3710 ET-15000 ST-2000 ST-3000 ST-4000 - 4 Pack ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Nature's Truth Frankincense Essential Oil",
+    "normalized_product": "Compatible Epson 502 T502 Refill Ink Bottles",
     "results": {
       "1": {
         "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand compatible, product type and variant match"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "reason": "exact title match with variant and brand"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand compatible, product type and variant match"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product type and generic listing"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand compatible, product type and variant match"
+      }
+    }
+  },
+  "Fruity Pebbles Marshmallow Treats Cereal Bars 0.78 oz Cereal Bars, Marshmallow, Treats": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Post Fruity Pebbles Treats Marshmallow Cereal Bars",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant all confirmed"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "reason": "brand, product type, and variant all confirmed"
       },
       "4": {
         "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "brand not confirmed, no brand mention in snippet or URL"
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "product type and variant differ (generic marshmallow cereal bars)"
       },
       "5": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "reason": "brand, product type, and variant all confirmed"
       },
       "7": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "reason": "brand, product type, and variant all confirmed"
       },
       "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.5,
+        "reason": "no brand or product variant stated, unrelated product listing"
       },
       "9": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "reason": "brand, product type, and variant all confirmed"
       },
       "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.5,
+        "reason": "no brand stated, generic product listing"
       },
       "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant frankincense confirmed",
-        "dup_of": 1
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "product type and variant differ (generic marshmallow cereal bars)",
+        "dup_of": 4
       }
     }
   },
@@ -681,114 +613,6 @@
       }
     }
   },
-  "Thomas Moore Feed Bird Seed 20 lb Bird Seed, Texas Wild": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Thomas Moore Feed Texas Wild Bird Seed",
-    "results": {
-      "1": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "generic product line page without specific variant"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all explicitly confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all explicitly confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all explicitly confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all explicitly confirmed"
-      }
-    }
-  },
-  "Gerber Graduates Lil' Entrees 8 ea Lil' Entrees, Homestyle Pasta and Beef with Vegetables in Sauce with Carrots": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Gerber Graduates Lil' Entrees Homestyle Pasta and Beef with Vegetables in Sauce with Carrots",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and product type match; variant implied by description"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match"
-      },
-      "5": {
-        "verdict": "different_variant",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "different variant: Pasta Stars in Meat Sauce, not Homestyle Pasta and Beef with Vegetables"
-      },
-      "10": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "category page listing multiple toddler meals"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match",
-        "dup_of": 1
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match",
-        "dup_of": 4
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant explicitly match",
-        "dup_of": 2
-      },
-      "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "different variant: Pasta Stars in Meat Sauce, not Homestyle Pasta and Beef with Vegetables",
-        "dup_of": 5
-      }
-    }
-  },
   "Bacardi Frozen Mixer 10 oz Frozen Mixer, Rum Runner": {
     "status": "ok",
     "product_is_specific": true,
@@ -857,73 +681,110 @@
       }
     }
   },
-  "Pastorelli Pizza Crust 3 ea Pizza Crust, Ultra Thin & Crispy, Roman Pizzeria Style, 100% Whole Wheat": {
+  "Thomas Moore Feed Bird Seed 20 lb Bird Seed, Texas Wild": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Pastorelli Pizza Crust Ultra Thin Crispy Roman Pizzeria Style 100% Whole Wheat",
+    "normalized_product": "Thomas Moore Feed Texas Wild Bird Seed",
     "results": {
       "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "generic product line page without specific variant"
+      },
+      "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed"
-      },
-      "2": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "same brand and type but variant size/count differs and no Roman style stated"
+        "reason": "brand, product, variant all explicitly confirmed"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed"
+        "reason": "brand, product, variant all explicitly confirmed"
       },
       "4": {
         "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and type match, variant not fully stated but likely same"
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all explicitly confirmed"
       },
       "5": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed"
-      },
-      "8": {
+        "reason": "brand, product, variant all explicitly confirmed"
+      }
+    }
+  },
+  "Oils of Aloha Dry Lip Therapy 0.15 oz Dry Lip Therapy, Strawberry-Guava": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Oils of Aloha Dry Lip Therapy Strawberry Guava",
+    "results": {
+      "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed"
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
       },
       "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed"
+        "reason": "flavor contradicted (flavor free vs strawberry guava)"
+      },
+      "10": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different brand and product type"
       },
       "6": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed",
+        "reason": "brand, product type, and strawberry guava flavor confirmed",
         "dup_of": 1
       },
       "7": {
         "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and type match, variant not fully stated but likely same",
-        "dup_of": 4
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed",
+        "dup_of": 5
       },
-      "10": {
+      "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all explicitly confirmed",
-        "dup_of": 5
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed",
+        "dup_of": 4
       }
     }
   },
@@ -1034,72 +895,210 @@
       }
     }
   },
-  "Oils of Aloha Dry Lip Therapy 0.15 oz Dry Lip Therapy, Strawberry-Guava": {
+  "NATURES TRUTH ESSENTIAL OIL FRANKINCENSE ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Oils of Aloha Dry Lip Therapy Strawberry Guava",
+    "normalized_product": "Nature's Truth Frankincense Essential Oil",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and strawberry guava flavor confirmed"
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and strawberry guava flavor confirmed"
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and strawberry guava flavor confirmed"
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, product type, and strawberry guava flavor confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "brand not confirmed, no brand mention in snippet or URL"
       },
       "5": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, product type, and strawberry guava flavor confirmed"
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant frankincense confirmed"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant frankincense confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "flavor contradicted (flavor free vs strawberry guava)"
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "10": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand and product type"
+        "reason": "brand, product type, and variant frankincense confirmed"
       },
       "6": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and strawberry guava flavor confirmed",
+        "reason": "brand, product type, and variant frankincense confirmed",
+        "dup_of": 1
+      }
+    }
+  },
+  "Pastorelli Pizza Crust 3 ea Pizza Crust, Ultra Thin & Crispy, Roman Pizzeria Style, 100% Whole Wheat": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Pastorelli Pizza Crust Ultra Thin Crispy Roman Pizzeria Style 100% Whole Wheat",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      },
+      "2": {
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "same brand and type but variant size/count differs and no Roman style stated"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, variant not fully stated but likely same"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed",
         "dup_of": 1
       },
       "7": {
         "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, variant not fully stated but likely same",
+        "dup_of": 4
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed",
+        "dup_of": 5
+      }
+    }
+  },
+  "HERSHEY'S Natural Unsweetened Cocoa Powder Can, 8 oz Cocoa, 100% Cacao": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "HERSHEY'S Natural Unsweetened Cocoa Powder 100% Cacao",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "5": {
+        "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand, product type, and strawberry guava flavor confirmed",
-        "dup_of": 5
+        "reason": "brand, type, variant all confirmed"
       },
       "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand, product type, and strawberry guava flavor confirmed",
+        "reason": "brand, type, variant all confirmed"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed",
+        "dup_of": 1
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed",
+        "dup_of": 2
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed",
         "dup_of": 4
       }
     }
@@ -1243,22 +1242,22 @@
       }
     }
   },
-  "HERSHEY'S Natural Unsweetened Cocoa Powder Can, 8 oz Cocoa, 100% Cacao": {
+  "Baby Buddy Toothbrush 1 ea Toothbrush, Baby's 1st, Stage 4 (4+ Months)": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "HERSHEY'S Natural Unsweetened Cocoa Powder 100% Cacao",
+    "normalized_product": "Baby Buddy Baby's 1st Toothbrush Stage 4 (4+ Months)",
     "results": {
       "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand matches but variant (stage 4) not confirmed"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
+        "reason": "different brand Brilliant Oral Care"
       },
       "3": {
         "verdict": "match",
@@ -1267,49 +1266,87 @@
         "reason": "brand, type, variant all confirmed"
       },
       "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "category page listing multiple Baby Buddy toothbrushes"
       },
       "5": {
         "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand and type match, variant not explicitly stated but likely same"
+      }
+    }
+  },
+  "Gerber Graduates Lil' Entrees 8 ea Lil' Entrees, Homestyle Pasta and Beef with Vegetables in Sauce with Carrots": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Gerber Graduates Lil' Entrees Homestyle Pasta and Beef with Vegetables in Sauce with Carrots",
+    "results": {
+      "1": {
+        "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, variant all confirmed"
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant explicitly match"
       },
-      "8": {
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant explicitly match"
+      },
+      "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand, type, variant all confirmed"
+        "reason": "brand and product type match; variant implied by description"
       },
-      "9": {
+      "4": {
         "verdict": "match",
         "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant explicitly match"
+      },
+      "5": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different variant: Pasta Stars in Meat Sauce, not Homestyle Pasta and Beef with Vegetables"
+      },
+      "10": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand, type, variant all confirmed"
+        "reason": "category page listing multiple toddler meals"
       },
       "6": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed",
+        "reason": "brand, product type, and variant explicitly match",
         "dup_of": 1
       },
       "7": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed",
-        "dup_of": 2
+        "reason": "brand, product type, and variant explicitly match",
+        "dup_of": 4
       },
-      "10": {
+      "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed",
-        "dup_of": 4
+        "reason": "brand, product type, and variant explicitly match",
+        "dup_of": 2
+      },
+      "9": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different variant: Pasta Stars in Meat Sauce, not Homestyle Pasta and Beef with Vegetables",
+        "dup_of": 5
       }
     }
   },
@@ -1347,43 +1384,6 @@
         "variant_evidence": "confirmed",
         "confidence": 0.95,
         "reason": "brand and product type confirmed"
-      }
-    }
-  },
-  "Coleman All-Purpose Propane Single Gas Cylinder ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Coleman All-Purpose Propane Single Gas Cylinder",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
       }
     }
   },
@@ -1457,112 +1457,6 @@
       }
     }
   },
-  "Baby Buddy Toothbrush 1 ea Toothbrush, Baby's 1st, Stage 4 (4+ Months)": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Baby Buddy Baby's 1st Toothbrush Stage 4 (4+ Months)",
-    "results": {
-      "1": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand matches but variant (stage 4) not confirmed"
-      },
-      "2": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different brand Brilliant Oral Care"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "4": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "category page listing multiple Baby Buddy toothbrushes"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "brand and type match, variant not explicitly stated but likely same"
-      }
-    }
-  },
-  "Luxury Pot-Sized Thin Spaghetti 16 oz Thin Spaghetti": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Luxury Pot-Sized Thin Spaghetti",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and product type and variant confirmed in title and snippet"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "different brand Mueller's"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and product type and variant confirmed in title and snippet",
-        "dup_of": 1
-      },
-      "8": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "different brand Mueller's",
-        "dup_of": 3
-      }
-    }
-  },
   "Mariquitas Plantain Strips 12 oz Plantain Strips, Classic": {
     "status": "ok",
     "product_is_specific": true,
@@ -1623,6 +1517,43 @@
         "confidence": 0.9,
         "reason": "variant lime differs from classic",
         "dup_of": 6
+      }
+    }
+  },
+  "Coleman All-Purpose Propane Single Gas Cylinder ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Coleman All-Purpose Propane Single Gas Cylinder",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
       }
     }
   },
@@ -1696,6 +1627,75 @@
       }
     }
   },
+  "Booths Multi-Action Body Lotion 32 oz Multi-Action Body Lotion, Vanilla Butter": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "C. Booth 4-in-1 Multi-Action Body Lotion Vanilla Butter",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed",
+        "dup_of": 5
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed",
+        "dup_of": 3
+      }
+    }
+  },
   "BULLETPROOF CLLN PRTN PWD CHOC   17.6 OZ ": {
     "status": "ok",
     "product_is_specific": true,
@@ -1766,6 +1766,75 @@
       }
     }
   },
+  "Luxury Pot-Sized Thin Spaghetti 16 oz Thin Spaghetti": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Luxury Pot-Sized Thin Spaghetti",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product type and variant confirmed in title and snippet"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "3": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different brand Mueller's"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand Luxury and thin spaghetti 16 oz confirmed in title and snippet"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product type and variant confirmed in title and snippet",
+        "dup_of": 1
+      },
+      "8": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different brand Mueller's",
+        "dup_of": 3
+      }
+    }
+  },
   "WD - Blue 1TB PC Internal Hard Drive for Laptops ": {
     "status": "ok",
     "product_is_specific": true,
@@ -1800,6 +1869,154 @@
         "variant_evidence": "confirmed",
         "confidence": 0.95,
         "reason": "desktop variant, 7200 RPM, not laptop"
+      }
+    }
+  },
+  "Forplay Prepair Spermicidal Water Based Personal Lubricant, 5.2 oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Forplay Prepair Spermicidal Water Based Personal Lubricant",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and spermicidal lubricant type confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "exact product title and spermicidal formulation confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "exact product and formulation confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "same brand, spermicidal water-based lubricant confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "customer reviews for exact product title"
+      }
+    }
+  },
+  "Every Man Jack Face Lotion 3.2 oz Face Lotion, Daily Protection": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Every Man Jack Face Lotion Daily Protection",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product type (beard & face recovery lotion) and variant (sandalwood scent)"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "category page for moisturizers, no specific product"
+      },
+      "3": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product type (beard + face moisturizer) and variant (sandalwood scent)"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product type (beard + face recovery lotion) and variant (sandalwood scent)"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "exact product title and variant (daily protection)"
+      }
+    }
+  },
+  "Langers 100% Juice 10 ea 100% Juice, Apple Grape": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Langers 100% Juice Apple Grape",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "5": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "flavor differs (Pure Apple vs Apple Grape)"
+      }
+    }
+  },
+  "Kinderï¿½s Mild Barbecue Sauce - 15.5 Oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Kinder's Mild Barbecue Sauce",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and mild flavor explicitly confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and mild flavor explicitly confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and mild flavor explicitly confirmed"
+      },
+      "4": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "flavor 'Hickory Brown Sugar' differs from 'Mild' flavor"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and mild flavor explicitly confirmed"
       }
     }
   },
@@ -1873,146 +2090,34 @@
       }
     }
   },
-  "Every Man Jack Face Lotion 3.2 oz Face Lotion, Daily Protection": {
+  "General Tso's Chicken, 12 oz ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Every Man Jack Face Lotion Daily Protection",
-    "results": {
-      "1": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different product type (beard & face recovery lotion) and variant (sandalwood scent)"
-      },
-      "2": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "category page for moisturizers, no specific product"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different product type (beard + face moisturizer) and variant (sandalwood scent)"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different product type (beard + face recovery lotion) and variant (sandalwood scent)"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "exact product title and variant (daily protection)"
-      }
-    }
-  },
-  "Booths Multi-Action Body Lotion 32 oz Multi-Action Body Lotion, Vanilla Butter": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "C. Booth 4-in-1 Multi-Action Body Lotion Vanilla Butter",
+    "normalized_product": "Whole Foods Market General Tso's Chicken 12 oz",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
+        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
+        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
       },
       "3": {
-        "verdict": "match",
+        "verdict": "different_product",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed",
-        "dup_of": 5
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant all confirmed",
-        "dup_of": 3
-      }
-    }
-  },
-  "Kinderï¿½s Mild Barbecue Sauce - 15.5 Oz ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Kinder's Mild Barbecue Sauce",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and mild flavor explicitly confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and mild flavor explicitly confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and mild flavor explicitly confirmed"
-      },
-      "4": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
         "confidence": 0.9,
-        "reason": "flavor 'Hickory Brown Sugar' differs from 'Mild' flavor"
+        "reason": "different brand Meal Simple by H-E-B"
       },
-      "5": {
-        "verdict": "match",
+      "4": {
+        "verdict": "different_product",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and mild flavor explicitly confirmed"
+        "confidence": 0.9,
+        "reason": "different brand Amazon Kitchen"
       }
     }
   },
@@ -2053,43 +2158,6 @@
       }
     }
   },
-  "Forplay Prepair Spermicidal Water Based Personal Lubricant, 5.2 oz ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Forplay Prepair Spermicidal Water Based Personal Lubricant",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and spermicidal lubricant type confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "exact product title and spermicidal formulation confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "exact product and formulation confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "same brand, spermicidal water-based lubricant confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "customer reviews for exact product title"
-      }
-    }
-  },
   "Kitu Sup Cof SwtCrm PlntB11ozC ": {
     "status": "ok",
     "product_is_specific": true,
@@ -2124,80 +2192,6 @@
         "variant_evidence": "confirmed",
         "confidence": 0.95,
         "reason": "brand, product type, flavor, size match"
-      }
-    }
-  },
-  "Oaza Black Cold Brew Coffee + Electrolytes Coffee, Cold Brew + Electrolytes, Black": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Oaza Black Cold Brew Coffee + Electrolytes",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and formulation confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and formulation confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and type confirmed, variant not explicitly stated"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and type confirmed, variant not explicitly stated"
-      },
-      "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "brand not stated, generic electrolyte cold brew"
-      }
-    }
-  },
-  "Langers 100% Juice 10 ea 100% Juice, Apple Grape": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Langers 100% Juice Apple Grape",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "5": {
-        "verdict": "different_variant",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "flavor differs (Pure Apple vs Apple Grape)"
       }
     }
   },
@@ -2238,6 +2232,43 @@
       }
     }
   },
+  "Flame King 3 lbs. Refillable Steel Propane Tank With OPD Valve and Built-in Site Gauge": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Flame King 3 lbs. Refillable Steel Propane Tank with OPD Valve and Built-in Site Gauge",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant (OPD valve, gauge) all confirmed"
+      },
+      "2": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "bundle with 10LB tank, different product type"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
+      }
+    }
+  },
   "hawaiian mountain fresh water 1 gl water, steamed distilled": {
     "status": "ok",
     "product_is_specific": true,
@@ -2275,108 +2306,71 @@
       }
     }
   },
-  "General Tso's Chicken, 12 oz ": {
+  "Oaza Black Cold Brew Coffee + Electrolytes Coffee, Cold Brew + Electrolytes, Black": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Whole Foods Market General Tso's Chicken 12 oz",
+    "normalized_product": "Oaza Black Cold Brew Coffee + Electrolytes",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
+        "reason": "brand, type, flavor, and formulation confirmed"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "different brand Meal Simple by H-E-B"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "different brand Amazon Kitchen"
-      }
-    }
-  },
-  "Sway Orange 12oz Can ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Sway Orange Energy Drink",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and flavor confirmed in title and snippet"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and flavor confirmed with nutrition details"
+        "reason": "brand, type, flavor, and formulation confirmed"
       },
       "3": {
         "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and flavor confirmed with nutrition details"
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type confirmed, variant not explicitly stated"
       },
       "4": {
         "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and flavor confirmed with nutrition details"
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type confirmed, variant not explicitly stated"
       },
       "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and flavor confirmed in title and snippet"
-      }
-    }
-  },
-  "Biore Clay Mask 4 ea Clay Mask, Instant Warming, Blue Agave + Baking Soda": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Biore Clay Mask Blue Agave Baking Soda Instant Warming",
-    "results": {
-      "1": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "title lacks brand and variant details, different product name"
+        "confidence": 0.8,
+        "reason": "brand not stated, generic electrolyte cold brew"
+      }
+    }
+  },
+  "ACT TP KIDS WILD WATERMELON ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "ACT Kids Wild Watermelon Mouthwash",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type (mouthwash), flavor all match"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, variant, and product type explicitly confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "generic kids mouthwash page, no specific flavor or product"
       },
       "3": {
-        "verdict": "match",
+        "verdict": "different_product",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, variant, and product type explicitly confirmed"
+        "reason": "toothpaste, not mouthwash"
       },
       "4": {
-        "verdict": "match",
+        "verdict": "different_product",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, variant, and product type explicitly confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, variant, and product type explicitly confirmed"
+        "reason": "toothpaste, not mouthwash"
       }
     }
   },
@@ -2417,111 +2411,6 @@
       }
     }
   },
-  "ACT TP KIDS WILD WATERMELON ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "ACT Kids Wild Watermelon Mouthwash",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type (mouthwash), flavor all match"
-      },
-      "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "generic kids mouthwash page, no specific flavor or product"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "toothpaste, not mouthwash"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "toothpaste, not mouthwash"
-      }
-    }
-  },
-  "Dove Drk Choc PB 2.75oz ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Dove Dark Chocolate Peanut Butter 2.75oz",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, size all match"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, size all match"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, size all match"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor, size all match"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor, size all match"
-      }
-    }
-  },
-  "Flame King 3 lbs. Refillable Steel Propane Tank With OPD Valve and Built-in Site Gauge": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Flame King 3 lbs. Refillable Steel Propane Tank with OPD Valve and Built-in Site Gauge",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant (OPD valve, gauge) all confirmed"
-      },
-      "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "bundle with 10LB tank, different product type"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, variant confirmed (3lb, OPD valve, gauge)"
-      }
-    }
-  },
   "Systane Zaditor Itch Relief Antihistamine Sterile Eye Drops 5 ml Eye Drops, Itch Relief, Antihistamine, Sterile": {
     "status": "ok",
     "product_is_specific": true,
@@ -2559,6 +2448,80 @@
       }
     }
   },
+  "Biore Clay Mask 4 ea Clay Mask, Instant Warming, Blue Agave + Baking Soda": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Biore Clay Mask Blue Agave Baking Soda Instant Warming",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "title lacks brand and variant details, different product name"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, variant, and product type explicitly confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, variant, and product type explicitly confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, variant, and product type explicitly confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, variant, and product type explicitly confirmed"
+      }
+    }
+  },
+  "Sway Orange 12oz Can ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Sway Orange Energy Drink",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and flavor confirmed in title and snippet"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and flavor confirmed with nutrition details"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and flavor confirmed with nutrition details"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and flavor confirmed with nutrition details"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and flavor confirmed in title and snippet"
+      }
+    }
+  },
   "SMALL FAMILY PARTY TRAY         25.8  OZ FOOD SERVICE SUSHI": {
     "status": "ok",
     "product_is_specific": false,
@@ -2593,6 +2556,43 @@
         "variant_evidence": "not_stated",
         "confidence": 0.95,
         "reason": "catering category page with sushi platters"
+      }
+    }
+  },
+  "Dove Drk Choc PB 2.75oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Dove Dark Chocolate Peanut Butter 2.75oz",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor, size all match"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor, size all match"
       }
     }
   }

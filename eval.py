@@ -14,7 +14,7 @@ import argparse, json, os, sys
 import env_loader  # noqa: F401  — loads OPENAI_API_KEY from .env
 from selector.pipeline import Config, SelectorPipeline
 from selector.metrics import evaluate
-from run import KEY_HELP
+from run import KEY_HELP, resolve_input
 
 
 # Purpose: format one evaluate()-style metrics dict into a human-readable multi-line
@@ -57,7 +57,9 @@ def _report(m: dict) -> str:
 #   --out-report's path if given.
 def main():
     ap = argparse.ArgumentParser(description="Run / score the selector eval harness")
-    ap.add_argument("input")
+    ap.add_argument("input", nargs="?", default=None)
+    ap.add_argument("--train", action="store_true", help="samples/train_50.json (or INPUT)")
+    ap.add_argument("--test", action="store_true", help="held-out test JSON (or INPUT); score the whole file")
     ap.add_argument("--predictions", default=None, help="score an existing output JSON; skip the model")
     ap.add_argument("--backend", default="openai", choices=["openai", "heuristic"])
     ap.add_argument("--model", default=None)
@@ -68,12 +70,12 @@ def main():
     ap.add_argument("--out", default=None, help="pipeline output prefix (ignored with --predictions)")
     ap.add_argument("--out-report", default=None, help="write the metrics JSON here")
     a = ap.parse_args()
-
+    a.input, eval_set, _report_split = resolve_input(a.train, a.test, a.input)
     data = json.load(open(a.input, encoding="utf-8"))
 
     if a.predictions:
         preds = json.load(open(a.predictions, encoding="utf-8"))
-        stats = {"mode": "score_only", "predictions": a.predictions}
+        stats = {"mode": "score_only", "predictions": a.predictions, "eval_set": eval_set}
     else:
         if a.backend == "openai" and not os.environ.get("OPENAI_API_KEY"):
             print(KEY_HELP, file=sys.stderr)
@@ -81,7 +83,7 @@ def main():
         if a.conf is not None: cfg.conf_threshold = a.conf
         if a.heur is not None: cfg.heuristic_threshold = a.heur
         out, audit, stats = SelectorPipeline(cfg).run(data)
-        stats = {"mode": "run_and_score", **stats}
+        stats = {"mode": "run_and_score", "eval_set": eval_set, **stats}
         base = a.out or a.input.rsplit(".", 1)[0] + ".output"
         json.dump(out, open(base + ".json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
         json.dump(audit, open(base + ".audit.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False, default=str)

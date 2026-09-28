@@ -34,19 +34,27 @@ python run.py samples/train_50.json
 ## Run
 
 ```
-python run.py test.json
+python run.py --train
+python run.py --test
+python run.py --test samples/search_results_ground_truth_test.json
+python run.py --train --subset holdout
 python run.py samples/train_50.json --backend heuristic
 python run.py samples/train_50.json --redecide samples/train_50.output.audit.json --conf 0.9
-python run.py samples/train_50.json --subset holdout
 python run.py samples/train_50.json --require-confirmed
 python run.py samples/train_50.json --no-cache --repeat 3
 python run.py samples/train_50.json --repeat 3 --vote-min 3
 python run.py big.json --batch-submit
 python run.py big.json --batch-collect <batch_id>
-python eval.py samples/train_50.json
-python eval.py test.json --predictions test.output.json
+python eval.py --train
+python eval.py --test --predictions samples/search_results_ground_truth_test.output.json
 python tests/test_pipeline.py
 ```
+
+`--train` / `--test` pick the default JSON (`samples/train_50.json` vs
+`samples/search_results_ground_truth_test.json`). Test files also carry
+`trusted_search_results`, so without `--test` the CLI would print a meaningless
+in-file hash **dev/holdout**. `--test` scores the **whole file** as one set.
+`--subset` is train-only.
 
 JSON reads/writes use **UTF-8** (Windows `cp1252` cannot store characters such as `⅔`).
 Malformed top-level JSON or a top-level array exits with a one-line error (no traceback).
@@ -68,7 +76,9 @@ Input: `{product_key: {product_title, product_description, search_results{"1": "
 | `*.output.audit.json` | Per product: status, `product_is_specific`, verdict / `variant_evidence` / confidence / reason; data-quality notes (`results_dropped`, `invalid_result_keys`, `upload_flag`) |
 | `*.output.errors.json` | Labelled input only: every false / missed link with the model's reason |
 
-Metrics (when `trusted_search_results` is present): overall plus **dev (~70%) / holdout (~30%)**, a stable hash of the product key. Tune on **dev**; report **holdout**.
+Metrics (when `trusted_search_results` is present): overall always. **`--train`** also
+prints the in-file hash split **dev (~70%) / holdout (~30%)** for prompt tuning.
+**`--test`** prints overall only.
 
 ## Layout
 
@@ -174,8 +184,9 @@ score(i) = 0.5 · (hits_anywhere / |product_tokens|)
 **Majority vote** (`--repeat N`, `--vote-min`): a link is trusted when at least
 `vote_min` samples trust it. Default `vote_min = ⌊N/2⌋ + 1` (strict majority).
 
-**Dev / holdout split** (`run.py` `split_of`): product key hashed with MD5;
-`int(hex, 16) % 10 < 3` → holdout (~30%), else dev (~70%).
+**Dev / holdout split** (`run.py` `split_of`, printed only with `--train`): product key
+hashed with MD5; `int(hex, 16) % 10 < 3` → holdout (~30%), else dev (~70%). `--test`
+does not apply this split.
 
 **LLM trust rule** (`decide`): index `i` is kept only if
 `verdict = match` AND `confidence ≥ --conf` (default 0.70) AND no injection flag
@@ -250,5 +261,4 @@ never wipe a successful product because a sibling row is garbage.
 
 - Deck: `docs/Vertex_Selector_Approach_Deck.pptx`
 - Leave-behind: `docs/product-owner-brief.md`
-- Hidden-test command: `python run.py samples/search_results_ground_truth_test.json`
-  (or whatever file the business team provides)
+- Hidden-test command: `python run.py --test`

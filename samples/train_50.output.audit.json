@@ -36,74 +36,6 @@
       }
     }
   },
-  "Lipton CB Unswet Blk Tea 14oz ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Lipton Cold Brew Unsweetened Black Tea",
-    "results": {
-      "1": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "product type: cocktail ingredient, not pure tea"
-      },
-      "2": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "product type: brewed tea bags, not cold brew liquid"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, cold brew, unsweetened black tea"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, cold brew, unsweetened black tea"
-      },
-      "5": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "sweetened black tea, contradicts unsweetened"
-      },
-      "6": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "brewed tea bags, not cold brew liquid"
-      },
-      "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "instant mix, not cold brew liquid"
-      },
-      "8": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand home page listing many teas"
-      },
-      "10": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "different brand: Lipton Pure Leaf"
-      },
-      "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "not_stated",
-        "confidence": 0.7,
-        "reason": "product type: brewed tea bags, not cold brew liquid",
-        "dup_of": 2
-      }
-    }
-  },
   "Theraworx Protect For Daily Urinary Health Wipes 60 ea Wipes, Protect, For Daily Urinary Health": {
     "status": "ok",
     "product_is_specific": true,
@@ -236,143 +168,113 @@
       }
     }
   },
+  "Lipton CB Unswet Blk Tea 14oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Lipton Cold Brew Unsweetened Black Tea",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "product type: cocktail ingredient, not pure tea"
+      },
+      "2": {
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "product type: brewed tea bags, not cold brew liquid"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, cold brew, unsweetened black tea"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, cold brew, unsweetened black tea"
+      },
+      "5": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "sweetened black tea, contradicts unsweetened"
+      },
+      "6": {
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "brewed tea bags, not cold brew liquid"
+      },
+      "7": {
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "instant mix, not cold brew liquid"
+      },
+      "8": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand home page listing many teas"
+      },
+      "10": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different brand: Lipton Pure Leaf"
+      },
+      "9": {
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "product type: brewed tea bags, not cold brew liquid",
+        "dup_of": 2
+      }
+    }
+  },
   "FC ": {
     "status": "abstain_empty_input",
     "product_is_specific": null,
     "results": {}
   },
-  "capri sun paw patrol mango pineapple juice blend 10 ea ": {
+  " Milk, Chocolate": {
     "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Capri Sun Paw Patrol Mango Pineapple Juice Blend",
+    "product_is_specific": false,
+    "normalized_product": "Milk Chocolate",
     "results": {
       "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
+        "reason": "informational article about milk chocolate ingredients"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
+        "reason": "encyclopedia entry about milk chocolate"
       },
       "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor confirmed; variant consistent"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor, and variant confirmed in snippet"
-      }
-    }
-  },
-  "LIFESAVERS MINTS WINTOGREEN SUP ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Life Savers Wint-O-Green Mints",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "9": {
         "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "product type is candy canes, not mints"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
+        "reason": "milk chocolate cake recipe, different product type"
       },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed",
-        "dup_of": 2
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "milk chocolate cake recipe, different product type"
+      },
+      "5": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "chocolate cake recipe, different product type"
       }
     }
   },
@@ -443,109 +345,72 @@
       }
     }
   },
-  " Milk, Chocolate": {
-    "status": "ok",
-    "product_is_specific": false,
-    "normalized_product": "Milk Chocolate",
-    "results": {
-      "1": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "informational article about milk chocolate ingredients"
-      },
-      "2": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "encyclopedia entry about milk chocolate"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "milk chocolate cake recipe, different product type"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "milk chocolate cake recipe, different product type"
-      },
-      "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "chocolate cake recipe, different product type"
-      }
-    }
-  },
-  "Muscle Milk Banana Creme 14oz ": {
+  "BRK STRAWBERRY DRINKING WATER   15/10 OZ ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Muscle Milk Banana Creme Protein Shake",
+    "normalized_product": "Brookshire Strawberry Drinking Water",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
+        "reason": "brand and strawberry flavor confirmed"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "different brand Kroger"
       },
       "3": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "formulation non-dairy, upload no"
-      },
-      "4": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
+        "reason": "brand and strawberry flavor confirmed"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.85,
+        "reason": "different brand Fruit Splash Juniors"
       },
       "5": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "product type protein powder, upload shake"
-      },
-      "6": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "formulation Genuine line, upload no"
+        "confidence": 0.9,
+        "reason": "different brand and product type (functional beverage)"
       },
       "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "formulation non-dairy, upload no"
-      },
-      "10": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "formulation non-dairy, upload no"
+        "reason": "brand and strawberry flavor confirmed"
       },
       "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed",
-        "dup_of": 2
+        "reason": "brand and strawberry flavor confirmed"
+      },
+      "10": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "different brand Best Choice"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and strawberry flavor confirmed",
+        "dup_of": 1
       },
       "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "formulation non-dairy, upload no",
-        "dup_of": 3
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.85,
+        "reason": "different brand Fruit Splash Juniors",
+        "dup_of": 4
       }
     }
   },
@@ -614,73 +479,6 @@
         "confidence": 0.9,
         "reason": "brand, type, variant match (10 count, antibacterial, flexible fabric, jumbo)",
         "dup_of": 3
-      }
-    }
-  },
-  "Monster Ultra PeachyKeen 12zCn ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Monster Ultra Peachy Keen Energy Drink Zero Sugar",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "6": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different flavor (Rio Punch) brand same"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "official brand site, zero sugar variant confirmed"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product name, zero sugar variant confirmed"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and product name match, zero sugar not stated but likely same variant"
       }
     }
   },
@@ -753,6 +551,211 @@
       }
     }
   },
+  "LIFESAVERS MINTS WINTOGREEN SUP ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Life Savers Wint-O-Green Mints",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "9": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "product type is candy canes, not mints"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed",
+        "dup_of": 2
+      }
+    }
+  },
+  "Muscle Milk Banana Creme 14oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Muscle Milk Banana Creme Protein Shake",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation non-dairy, upload no"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "5": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "product type protein powder, upload shake"
+      },
+      "6": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation Genuine line, upload no"
+      },
+      "7": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation non-dairy, upload no"
+      },
+      "10": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation non-dairy, upload no"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed",
+        "dup_of": 2
+      },
+      "9": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation non-dairy, upload no",
+        "dup_of": 3
+      }
+    }
+  },
+  "alani nu fit snacks peanut butter crisp protein bar 12 - 1.62 oz bars protein bar, peanut butter crisp, 12 pack": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Alani Nu Fit Snacks Peanut Butter Crisp Protein Bar",
+    "results": {
+      "1": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "flavor differs (Peanut Butter & Jelly vs Peanut Butter Crisp)"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "7": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "flavor differs (Fruity Cereal vs Peanut Butter Crisp)"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "9": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different brand and product"
+      },
+      "10": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different brand and product"
+      },
+      "6": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "flavor differs (Peanut Butter & Jelly vs Peanut Butter Crisp)",
+        "dup_of": 1
+      }
+    }
+  },
   "Q KOLA ": {
     "status": "ok",
     "product_is_specific": true,
@@ -819,6 +822,198 @@
         "confidence": 0.95,
         "reason": "brand and product name match, ingredients confirm variant",
         "dup_of": 5
+      }
+    }
+  },
+  "Monster Ultra PeachyKeen 12zCn ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Monster Ultra Peachy Keen Energy Drink Zero Sugar",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different flavor (Rio Punch) brand same"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "official brand site, zero sugar variant confirmed"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and product name match, zero sugar not stated but likely same variant"
+      }
+    }
+  },
+  "Derma E Eczema Relief Lotion 6 oz Relief Lotion, Eczema": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Derma E Eczema Relief Lotion",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "product type lotion vs cream"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed",
+        "dup_of": 1
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant confirmed",
+        "dup_of": 2
+      },
+      "9": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "product type lotion vs cream",
+        "dup_of": 4
+      }
+    }
+  },
+  "FM PEANUT BTR BUCKEYES ": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "FM Peanut Butter Buckeyes",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "2": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "3": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "5": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "Different brand Fannie May, recipe page"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "7": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
+      },
+      "8": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "No brand FM, recipe page only"
       }
     }
   },
@@ -892,195 +1087,70 @@
       }
     }
   },
-  "Labatt Ale 12 ea ": {
+  "capri sun paw patrol mango pineapple juice blend 10 ea ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Labatt Ale",
+    "normalized_product": "Capri Sun Paw Patrol Mango Pineapple Juice Blend",
     "results": {
       "1": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "2": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "3": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "4": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "5": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "6": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand home page"
-      },
-      "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "10": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale"
-      },
-      "8": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale",
-        "dup_of": 2
-      },
-      "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "product type is Pilsener, not Ale",
-        "dup_of": 3
-      }
-    }
-  },
-  "alani nu fit snacks peanut butter crisp protein bar 12 - 1.62 oz bars protein bar, peanut butter crisp, 12 pack": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Alani Nu Fit Snacks Peanut Butter Crisp Protein Bar",
-    "results": {
-      "1": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "flavor differs (Peanut Butter & Jelly vs Peanut Butter Crisp)"
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
       },
       "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "flavor differs (Fruity Cereal vs Peanut Butter Crisp)"
-      },
-      "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "9": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different brand and product"
-      },
-      "10": {
-        "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different brand and product"
-      },
-      "6": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "flavor differs (Peanut Butter & Jelly vs Peanut Butter Crisp)",
-        "dup_of": 1
-      }
-    }
-  },
-  "FM PEANUT BTR BUCKEYES ": {
-    "status": "ok",
-    "product_is_specific": false,
-    "normalized_product": "FM Peanut Butter Buckeyes",
-    "results": {
-      "1": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
-      },
-      "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
-      },
-      "3": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
+        "reason": "brand, type, flavor confirmed; variant consistent"
       },
       "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
+        "reason": "brand, type, flavor, and variant confirmed in title"
       },
       "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "Different brand Fannie May, recipe page"
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
       },
       "6": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
       },
       "7": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
       },
       "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "No brand FM, recipe page only"
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, and variant confirmed in title and snippet"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, and variant confirmed in snippet"
       }
     }
   },
@@ -1149,142 +1219,72 @@
       }
     }
   },
-  "BRK STRAWBERRY DRINKING WATER   15/10 OZ ": {
+  "Labatt Ale 12 ea ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Brookshire Strawberry Drinking Water",
+    "normalized_product": "Labatt Ale",
     "results": {
       "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand and strawberry flavor confirmed"
+        "reason": "product type is Pilsener, not Ale"
       },
       "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different brand Kroger"
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "product type is Pilsener, not Ale"
       },
       "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand and strawberry flavor confirmed"
+        "reason": "product type is Pilsener, not Ale"
       },
       "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.85,
-        "reason": "different brand Fruit Splash Juniors"
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "product type is Pilsener, not Ale"
       },
       "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different brand and product type (functional beverage)"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand and strawberry flavor confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and strawberry flavor confirmed"
-      },
-      "10": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different brand Best Choice"
+        "reason": "product type is Pilsener, not Ale"
       },
       "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and strawberry flavor confirmed",
-        "dup_of": 1
-      },
-      "9": {
-        "verdict": "different_product",
+        "verdict": "generic_or_listing",
         "variant_evidence": "not_stated",
-        "confidence": 0.85,
-        "reason": "different brand Fruit Splash Juniors",
-        "dup_of": 4
-      }
-    }
-  },
-  "Derma E Eczema Relief Lotion 6 oz Relief Lotion, Eczema": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Derma E Eczema Relief Lotion",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "product type lotion vs cream"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
         "confidence": 0.9,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed",
-        "dup_of": 1
+        "reason": "brand home page"
       },
       "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "brand, product type, and variant confirmed",
+        "reason": "product type is Pilsener, not Ale"
+      },
+      "10": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "product type is Pilsener, not Ale"
+      },
+      "8": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "product type is Pilsener, not Ale",
         "dup_of": 2
       },
       "9": {
-        "verdict": "different_product",
-        "variant_evidence": "confirmed",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
         "confidence": 0.95,
-        "reason": "product type lotion vs cream",
-        "dup_of": 4
+        "reason": "product type is Pilsener, not Ale",
+        "dup_of": 3
       }
     }
   },
@@ -1421,134 +1421,68 @@
       }
     }
   },
-  "Essence of Beauty Hand Lotion 2.5 oz Hand Lotion, Moisturizing, Sunblossom": {
+  "Minestrone Soup, 24 oz ": {
     "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Essence of Beauty Hand Lotion Sunblossom",
+    "product_is_specific": false,
+    "normalized_product": "Minestrone Soup",
     "results": {
       "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "brand, type, and Sunblossom variant confirmed"
+        "reason": "different brand (Signature Select)"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and Sun Blossom lotion variant confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "different brand (Whole Foods Market)"
       },
       "3": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.9,
-        "reason": "different product type (cream) and variant name"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "different brand (Home Chef)"
       },
       "4": {
         "verdict": "different_product",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "different brand and product type"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and Sun Blossom variant confirmed"
-      },
-      "6": {
-        "verdict": "match",
         "variant_evidence": "not_stated",
-        "confidence": 0.6,
-        "reason": "brand and type match, variant not explicitly stated"
+        "confidence": 0.95,
+        "reason": "different brand (Home Chef)"
       },
       "8": {
         "verdict": "different_product",
-        "variant_evidence": "contradicted",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "different brand and product type"
+        "reason": "different brand (Whole Foods Market)"
       },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+      "5": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "brand, type, and Sunblossom variant confirmed",
-        "dup_of": 1
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and Sun Blossom lotion variant confirmed",
+        "reason": "different brand (Whole Foods Market)",
         "dup_of": 2
-      }
-    }
-  },
-  "Emu Lemongrass Hand Sanitizer Mist 2.2 oz Hand Sanitizer Mist, Lemongrass": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Emu Lemongrass Hand Sanitizer Mist",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "6": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "no brand, generic drug info"
+        "confidence": 0.95,
+        "reason": "different brand (Signature Select)",
+        "dup_of": 1
       },
       "7": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "no brand, generic drug info"
+        "confidence": 0.95,
+        "reason": "different brand (Home Chef)",
+        "dup_of": 3
       },
       "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
         "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and lemongrass variant confirmed",
-        "dup_of": 1
+        "reason": "different brand (Home Chef)",
+        "dup_of": 4
       }
     }
   },
@@ -1620,117 +1554,139 @@
       }
     }
   },
-  "Minestrone Soup, 24 oz ": {
+  "Emu Lemongrass Hand Sanitizer Mist 2.2 oz Hand Sanitizer Mist, Lemongrass": {
     "status": "ok",
-    "product_is_specific": false,
-    "normalized_product": "Minestrone Soup",
+    "product_is_specific": true,
+    "normalized_product": "Emu Lemongrass Hand Sanitizer Mist",
     "results": {
       "1": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand (Signature Select)"
+        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand (Whole Foods Market)"
+        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "3": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand (Home Chef)"
+        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand (Home Chef)"
-      },
-      "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "different brand (Whole Foods Market)"
+        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "different brand (Whole Foods Market)",
-        "dup_of": 2
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and lemongrass variant confirmed"
       },
       "6": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "different brand (Signature Select)",
-        "dup_of": 1
+        "confidence": 0.9,
+        "reason": "no brand, generic drug info"
       },
       "7": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "different brand (Home Chef)",
-        "dup_of": 3
+        "confidence": 0.9,
+        "reason": "no brand, generic drug info"
       },
       "9": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "different brand (Home Chef)",
-        "dup_of": 4
+        "reason": "brand, type, and lemongrass variant confirmed"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and lemongrass variant confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and lemongrass variant confirmed",
+        "dup_of": 1
       }
     }
   },
-  "Vegetable Lo Mein, 12 oz ": {
+  "Birds Eye Oven Roasters, Zesty Ranch Broccoli, Frozen Vegetables, 14 oz. Bag Broccoli, Zesty Ranch": {
     "status": "ok",
-    "product_is_specific": false,
-    "normalized_product": "Vegetable Lo Mein",
+    "product_is_specific": true,
+    "normalized_product": "Birds Eye Oven Roasters Zesty Ranch Broccoli Frozen Vegetables",
     "results": {
       "1": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand not stated in upload, product likely generic"
+        "reason": "brand, product type, and flavor all confirmed"
       },
       "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "generic recipe, no brand"
+        "reason": "brand, product type, and flavor all confirmed"
       },
       "3": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "generic recipe, no brand"
+        "reason": "brand, product type, and flavor all confirmed"
       },
       "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "generic recipe, no brand"
-      },
-      "6": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "generic recipe, no brand"
-      },
-      "7": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.95,
-        "reason": "generic recipe, no brand"
+        "reason": "brand, product type, and flavor all confirmed"
       },
       "5": {
-        "verdict": "different_product",
+        "verdict": "generic_or_listing",
         "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "nutrition label page, not product page"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "generic recipe, no brand",
+        "reason": "brand, product type, and flavor all confirmed"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and flavor all confirmed"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and flavor all confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and flavor all confirmed",
+        "dup_of": 1
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and flavor all confirmed",
         "dup_of": 2
       }
     }
@@ -1803,71 +1759,254 @@
       }
     }
   },
-  "protein water water 4 ea water, protein, punch": {
+  "TRES AGAVE STRAWBERRY MIXER ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Tres Agaves Strawberry Mixer",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "7": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "variant includes lime, not just strawberry"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor all confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed",
+        "dup_of": 1
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, flavor all confirmed",
+        "dup_of": 5
+      }
+    }
+  },
+  "Vegetable Lo Mein, 12 oz ": {
     "status": "ok",
     "product_is_specific": false,
-    "normalized_product": "protein water",
+    "normalized_product": "Vegetable Lo Mein",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "brand not stated in upload, product likely generic"
+      },
+      "2": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand"
+      },
+      "3": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand"
+      },
+      "7": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand"
+      },
+      "5": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic recipe, no brand",
+        "dup_of": 2
+      }
+    }
+  },
+  "V8 V-Fusion 100% Juice 6 ea 100% Juice, Pomegranate Blueberry": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "V8 V-Fusion 100% Juice Pomegranate Blueberry",
     "results": {
       "1": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand TATU differs from generic protein water"
+        "reason": "brand missing, generic juice blend"
       },
       "2": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Celebrate Vitamins differs from generic protein water"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
       },
       "3": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Premier Protein differs from generic protein water"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
       },
       "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Ready differs from generic protein water"
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation states no sugar added, differs from upload"
       },
       "5": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand BiPro differs from generic protein water"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
       },
       "7": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Protein2o differs from generic protein water"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
       },
       "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Dr. Smith's differs from generic protein water"
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "energy formulation differs from upload"
       },
       "9": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Protein2o differs from generic protein water"
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed",
+        "dup_of": 2
       },
       "10": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand Protein2o differs from generic protein water"
+        "reason": "brand missing, generic juice blend",
+        "dup_of": 1
+      }
+    }
+  },
+  "Essence of Beauty Hand Lotion 2.5 oz Hand Lotion, Moisturizing, Sunblossom": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Essence of Beauty Hand Lotion Sunblossom",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and Sunblossom variant confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and Sun Blossom lotion variant confirmed"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "different product type (cream) and variant name"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different brand and product type"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and Sun Blossom variant confirmed"
       },
       "6": {
-        "verdict": "different_product",
+        "verdict": "match",
         "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand TATU differs from generic protein water",
+        "confidence": 0.6,
+        "reason": "brand and type match, variant not explicitly stated"
+      },
+      "8": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different brand and product type"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and Sunblossom variant confirmed",
         "dup_of": 1
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and Sun Blossom lotion variant confirmed",
+        "dup_of": 2
       }
     }
   },
@@ -1941,140 +2080,70 @@
       }
     }
   },
-  "TRES AGAVE STRAWBERRY MIXER ": {
+  "protein water water 4 ea water, protein, punch": {
     "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Tres Agaves Strawberry Mixer",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "variant includes lime, not just strawberry"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor all confirmed"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, flavor all confirmed",
-        "dup_of": 1
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, flavor all confirmed",
-        "dup_of": 5
-      }
-    }
-  },
-  "V8 V-Fusion 100% Juice 6 ea 100% Juice, Pomegranate Blueberry": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "V8 V-Fusion 100% Juice Pomegranate Blueberry",
+    "product_is_specific": false,
+    "normalized_product": "protein water",
     "results": {
       "1": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand missing, generic juice blend"
+        "reason": "brand TATU differs from generic protein water"
       },
       "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Celebrate Vitamins differs from generic protein water"
       },
       "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Premier Protein differs from generic protein water"
       },
       "4": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "formulation states no sugar added, differs from upload"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Ready differs from generic protein water"
       },
       "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand BiPro differs from generic protein water"
       },
       "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Protein2o differs from generic protein water"
       },
       "8": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "energy formulation differs from upload"
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Dr. Smith's differs from generic protein water"
       },
       "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact product variant confirmed",
-        "dup_of": 2
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Protein2o differs from generic protein water"
       },
       "10": {
         "verdict": "different_product",
         "variant_evidence": "not_stated",
         "confidence": 0.9,
-        "reason": "brand missing, generic juice blend",
+        "reason": "brand Protein2o differs from generic protein water"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand TATU differs from generic protein water",
         "dup_of": 1
       }
     }
@@ -2149,72 +2218,34 @@
       }
     }
   },
-  "Birds Eye Oven Roasters, Zesty Ranch Broccoli, Frozen Vegetables, 14 oz. Bag Broccoli, Zesty Ranch": {
+  "Kelly & Katie Betty Clutch ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Birds Eye Oven Roasters Zesty Ranch Broccoli Frozen Vegetables",
+    "normalized_product": "Kelly & Katie Betty Clutch",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
+        "reason": "brand, product, and variant all explicitly confirmed"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
+        "reason": "brand, product, and variant all explicitly confirmed"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
+        "confidence": 0.9,
+        "reason": "brand and product confirmed; variant (silver metallic) matches snippet description"
       },
       "4": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
-      },
-      "5": {
-        "verdict": "generic_or_listing",
-        "variant_evidence": "not_stated",
-        "confidence": 0.8,
-        "reason": "nutrition label page, not product page"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed",
-        "dup_of": 1
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product type, and flavor all confirmed",
-        "dup_of": 2
+        "reason": "brand, product, and variant all explicitly confirmed"
       }
     }
   },
@@ -2288,34 +2319,141 @@
       }
     }
   },
-  "Kelly & Katie Betty Clutch ": {
+  "Porcelana Skin Lightening Cream 3 oz Skin Lightening Cream, Fade Dark Spots Daytime Treatment": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Kelly & Katie Betty Clutch",
+    "normalized_product": "Porcelana Skin Lightening Cream Daytime",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product, and variant all explicitly confirmed"
+        "reason": "brand, type, daytime cream variant confirmed"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product, and variant all explicitly confirmed"
+        "reason": "brand, type, 3 oz size matches uploaded product"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "nighttime cream variant differs from daytime"
+      },
+      "4": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "night cream variant differs from daytime"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "day cream with fade dark spots treatment matches variant"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "day skin lightening cream with hydroquinone matches variant"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "daytime hydration cream variant matches uploaded product"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "day skin lightening cream with hydroquinone matches variant"
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, 3 oz size matches uploaded product",
+        "dup_of": 2
+      },
+      "9": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "night cream variant differs from daytime",
+        "dup_of": 4
+      }
+    }
+  },
+  "health warrior pumpkin seed bar dark chocolate 1.23 oz pumpkin seed bar, dark chocolate flavor": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Health Warrior Pumpkin Seed Bar Dark Chocolate",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand and product confirmed; variant (silver metallic) matches snippet description"
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
       },
       "4": {
         "verdict": "match",
         "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, product, and variant all explicitly confirmed"
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "7": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "contains peanut, different variant"
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed"
+      },
+      "10": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "contains peanut, different variant"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed",
+        "dup_of": 2
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor confirmed",
+        "dup_of": 3
       }
     }
   },
@@ -2389,75 +2527,6 @@
       }
     }
   },
-  "Porcelana Skin Lightening Cream 3 oz Skin Lightening Cream, Fade Dark Spots Daytime Treatment": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Porcelana Skin Lightening Cream Daytime",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, daytime cream variant confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, 3 oz size matches uploaded product"
-      },
-      "3": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "nighttime cream variant differs from daytime"
-      },
-      "4": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "night cream variant differs from daytime"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "day cream with fade dark spots treatment matches variant"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "day skin lightening cream with hydroquinone matches variant"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "daytime hydration cream variant matches uploaded product"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "day skin lightening cream with hydroquinone matches variant"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, 3 oz size matches uploaded product",
-        "dup_of": 2
-      },
-      "9": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "night cream variant differs from daytime",
-        "dup_of": 4
-      }
-    }
-  },
   "ChapStick Classic Collection Lip Care 3 ea Lip Care, Classic Collection": {
     "status": "ok",
     "product_is_specific": true,
@@ -2526,72 +2595,138 @@
       }
     }
   },
-  "health warrior pumpkin seed bar dark chocolate 1.23 oz pumpkin seed bar, dark chocolate flavor": {
+  "Rhythm P2-S3 Portable Concentrator ": {
     "status": "ok",
     "product_is_specific": true,
-    "normalized_product": "Health Warrior Pumpkin Seed Bar Dark Chocolate",
+    "normalized_product": "Rhythm P2-S3 Portable Concentrator",
     "results": {
       "1": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
+        "reason": "brand and exact model match in title and snippet"
       },
       "2": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
+        "reason": "brand and exact model match in title and snippet"
       },
       "3": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
+        "reason": "brand and exact model match in title and snippet"
       },
       "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "different model (P2 vs P2-S3)"
+      },
+      "7": {
         "verdict": "match",
         "variant_evidence": "confirmed",
-        "confidence": 0.9,
-        "reason": "brand, type, and flavor confirmed"
+        "confidence": 0.95,
+        "reason": "exact model and product manual match"
+      },
+      "8": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact model match in title and snippet"
       },
       "5": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "7": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "contains peanut, different variant"
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed"
-      },
-      "10": {
-        "verdict": "different_variant",
-        "variant_evidence": "contradicted",
-        "confidence": 0.95,
-        "reason": "contains peanut, different variant"
+        "reason": "brand and exact model match in title and snippet",
+        "dup_of": 3
       },
       "6": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed",
+        "reason": "brand and exact model match in title and snippet",
+        "dup_of": 1
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact model match in title and snippet",
+        "dup_of": 2
+      }
+    }
+  },
+  "E Oxygen Cylinder Kit on Cart, 1630A-15E Mada Medical 1602E Aluminum Oxygen Cylinder, 1335-15 Adjustable flow regulator (2-15 LPM), nasal cannula, and 370C Cart (Empty) is a complete oxygen therapy system that is ideal for home use.": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Mada Medical E Oxygen Cylinder Kit on Cart 1630A-15E",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "10": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet"
+      },
+      "6": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet",
+        "dup_of": 1
+      },
+      "7": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet",
         "dup_of": 2
       },
       "8": {
         "verdict": "match",
         "variant_evidence": "confirmed",
         "confidence": 0.95,
-        "reason": "brand, type, and flavor confirmed",
+        "reason": "brand, product, variant all confirmed in title and snippet",
         "dup_of": 3
+      },
+      "9": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, variant all confirmed in title and snippet",
+        "dup_of": 4
       }
     }
   },
@@ -2703,141 +2838,6 @@
       }
     }
   },
-  "E Oxygen Cylinder Kit on Cart, 1630A-15E Mada Medical 1602E Aluminum Oxygen Cylinder, 1335-15 Adjustable flow regulator (2-15 LPM), nasal cannula, and 370C Cart (Empty) is a complete oxygen therapy system that is ideal for home use.": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Mada Medical E Oxygen Cylinder Kit on Cart 1630A-15E",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "10": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet"
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet",
-        "dup_of": 1
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet",
-        "dup_of": 2
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet",
-        "dup_of": 3
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand, product, variant all confirmed in title and snippet",
-        "dup_of": 4
-      }
-    }
-  },
-  "Rhythm P2-S3 Portable Concentrator ": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Rhythm P2-S3 Portable Concentrator",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet"
-      },
-      "4": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different model (P2 vs P2-S3)"
-      },
-      "7": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "exact model and product manual match"
-      },
-      "8": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet",
-        "dup_of": 3
-      },
-      "6": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet",
-        "dup_of": 1
-      },
-      "9": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand and exact model match in title and snippet",
-        "dup_of": 2
-      }
-    }
-  },
   "Standard Issue Waterproof 10 x 25 Binoculars ": {
     "status": "ok",
     "product_is_specific": true,
@@ -2866,73 +2866,6 @@
         "variant_evidence": "confirmed",
         "confidence": 0.9,
         "reason": "brand and product variant confirmed, color variant noted but does not change product"
-      }
-    }
-  },
-  "Cocoa Krispies Cereal Bar 5 ea Cereal Bar, Chewy, Chocolate": {
-    "status": "ok",
-    "product_is_specific": true,
-    "normalized_product": "Kellogg's Cocoa Krispies Cereal Bar Chocolate",
-    "results": {
-      "1": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
-      },
-      "2": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
-      },
-      "3": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
-      },
-      "4": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
-      },
-      "5": {
-        "verdict": "match",
-        "variant_evidence": "confirmed",
-        "confidence": 0.95,
-        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
-      },
-      "6": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "product type cereal, not cereal bar"
-      },
-      "7": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Kashi, different product"
-      },
-      "8": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "brand Kashi, different product"
-      },
-      "9": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different brand and product type"
-      },
-      "10": {
-        "verdict": "different_product",
-        "variant_evidence": "not_stated",
-        "confidence": 0.9,
-        "reason": "different brand and product type"
       }
     }
   },
@@ -3070,6 +3003,73 @@
         "confidence": 0.7,
         "reason": "no brand, generic product description",
         "dup_of": 4
+      }
+    }
+  },
+  "Cocoa Krispies Cereal Bar 5 ea Cereal Bar, Chewy, Chocolate": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Kellogg's Cocoa Krispies Cereal Bar Chocolate",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      "4": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      "6": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "product type cereal, not cereal bar"
+      },
+      "7": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Kashi, different product"
+      },
+      "8": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand Kashi, different product"
+      },
+      "9": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "different brand and product type"
+      },
+      "10": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "different brand and product type"
       }
     }
   },

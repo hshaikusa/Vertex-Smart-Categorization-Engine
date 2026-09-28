@@ -1,6 +1,7 @@
 """Offline tests. A scripted FakeLLM exercises the guardrails without an API key.
 Run: python -m pytest tests -q   (or python tests/test_pipeline.py)"""
 import json, sys, pathlib
+from pathlib import Path
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from selector.pipeline import Config, SelectorPipeline, select_for_product
 from selector.metrics import evaluate
@@ -381,6 +382,47 @@ def test_malformed_top_level_json_gives_friendly_error(tmp_path=None):
         r = subprocess.run([_sys.executable, "run.py", fp, "--backend", "heuristic"], cwd=root,
                             capture_output=True, text=True)
         assert r.returncode != 0 and expect in (r.stdout + r.stderr)
+
+def test_resolve_input_train_vs_test():
+    from run import resolve_input, TRAIN_JSON, TEST_JSON
+    p, s, report = resolve_input(True, False, None, "all")
+    assert s == "train" and report is True and Path(p) == TRAIN_JSON
+    p, s, report = resolve_input(False, True, None, "all")
+    assert s == "test" and report is False and Path(p) == TEST_JSON
+    p, s, report = resolve_input(False, True, "other.json", "all")
+    assert p == "other.json" and s == "test" and report is False
+    p, s, report = resolve_input(False, False, "custom.json", "all")
+    assert s == "custom" and report is True
+    try:
+        resolve_input(True, True, None, "all"); assert False
+    except SystemExit as e:
+        assert "mutually exclusive" in str(e)
+    try:
+        resolve_input(False, True, None, "holdout"); assert False
+    except SystemExit as e:
+        assert "train-only" in str(e)
+    try:
+        resolve_input(False, False, None, "all"); assert False
+    except SystemExit as e:
+        assert "provide an input" in str(e)
+
+def test_print_metrics_test_mode_omits_hash_split():
+    import io, contextlib
+    from run import print_metrics
+    data = json.load(open(S / "synthetic_1.json", encoding="utf-8"))
+    out, _, _ = SelectorPipeline(Config(backend="heuristic")).run(data)
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        print_metrics(data, out, report_hash_split=False)
+    text = buf.getvalue()
+    assert "metrics (all):" in text and "  dev" not in text and "  holdout" not in text
+
+def test_cli_test_rejects_subset():
+    import subprocess, sys as _sys
+    root = pathlib.Path(__file__).resolve().parents[1]
+    r = subprocess.run([_sys.executable, "run.py", "--test", "--subset", "holdout", "--backend", "heuristic"],
+                       cwd=root, capture_output=True, text=True)
+    assert r.returncode != 0 and "train-only" in (r.stdout + r.stderr)
 
 if __name__ == "__main__":
     for n, fn in list(globals().items()):
