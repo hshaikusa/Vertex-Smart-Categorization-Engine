@@ -1,7 +1,6 @@
 # Search Result Selector — product-owner brief
 
-Stakeholder leave-behind for the AI Product Engineer case. Walk the deck
-(`docs/Vertex_Selector_Approach_Deck.pptx`) in the meeting; use this note for
+Stakeholder leave-behind for the AI Product Engineer case. use this note for
 questions, trade-offs, production requirements, and the roadmap.
 
 ## What we own
