@@ -1,0 +1,1073 @@
+{
+  "Lipton CB Unswet Blk Tea 14oz": {
+    "split": "holdout",
+    "human": [],
+    "model": [
+      3,
+      4
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Cold Brew Iced Black Tea Family Size 22 Tea Bags",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, cold brew, unsweetened black tea"
+      },
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Lipton Black Tea Cold Brew Iced Tea Bags Family-Size ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, cold brew, unsweetened black tea"
+      }
+    ]
+  },
+  "Theraworx Protect For Daily Urinary Health Wipes 60 ea Wipes, Protect, For Daily Urinary Health": {
+    "split": "dev",
+    "human": [
+      1,
+      3,
+      7,
+      10
+    ],
+    "model": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Daily Urinary Foams and Wipes",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, variant all confirmed"
+      },
+      {
+        "index": 6,
+        "error": "FALSE_LINK",
+        "title": "Theraworx® U-Pak Wipes: Feminine Wipes",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, variant all confirmed"
+      }
+    ]
+  },
+  "Arnold Palmer Half & Half Iced Tea Lemonade 6 ea Iced Tea Lemonade, Half & Half": {
+    "split": "dev",
+    "human": [
+      6,
+      7,
+      9
+    ],
+    "model": [
+      6,
+      7
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 9,
+        "error": "MISSED_LINK",
+        "title": "AriZona Arnold Palmer, Half & Half Iced Tea Lemonade ...",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "brand Arizona, different formulation with sweeteners"
+      }
+    ]
+  },
+  "Ghirardeli Squares White Chocolate Caramel 5 oz White Chocolate, Squares, Caramel": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Ghirardelli White Chocolate Caramel Chocolate Candy - 5 ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, flavor and size confirmed"
+      }
+    ]
+  },
+  "Equate Bandages 10 ea Bandages, Flexible Fabric, Antibacterial, Jumbo": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "Equate Bandages",
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match but count and size not stated, likely different variant"
+      },
+      {
+        "index": 7,
+        "error": "MISSED_LINK",
+        "title": "Equate Antibacterial Flexible Fabric Bandages, 100 Ct",
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "same brand and type but 100 count, different pack size variant"
+      },
+      {
+        "index": 10,
+        "error": "MISSED_LINK",
+        "title": "Bandages, Flexible Fabric, Antibacterial, Jumbo - Pro Shop",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "no brand stated, generic product listing"
+      }
+    ]
+  },
+  "starbucks doubleshot mexican mocha energy coffee beverage 15 oz energy coffee beverage, mexican mocha": {
+    "split": "dev",
+    "human": [
+      2,
+      3,
+      6,
+      7,
+      10
+    ],
+    "model": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Starbucks Energy Coffee Beverage, Mexican Mocha 15 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, formulation match"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Starbucks Energy Coffee Beverage, Mexican Mocha",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, formulation match"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "Starbucks Energy Coffee Beverage, Mexican Mocha 15 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, formulation match"
+      }
+    ]
+  },
+  "Monster Ultra PeachyKeen 12zCn": {
+    "split": "holdout",
+    "human": [
+      1,
+      5,
+      7,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Monster Energy Drink, Zero Sugar, Ultra Peachy Keen",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Monster® Zero Sugar Ultra Peachy Keen Energy Drink ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Monster® Zero Sugar Ultra Peachy Keen Energy Drink Can",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Zero-Sugar Ultra Peachy Keen",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "official brand site, zero sugar variant confirmed"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "Monster® Zero Sugar Ultra Peachy Keen Energy Drink ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product name, zero sugar variant confirmed"
+      },
+      {
+        "index": 10,
+        "error": "MISSED_LINK",
+        "title": "Monster Energy, Ultra Peachy Keen 12 fl Oz",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and product name match, zero sugar not stated but likely same variant"
+      }
+    ]
+  },
+  "Q KOLA": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 7,
+        "error": "MISSED_LINK",
+        "title": "Q Mixers: The World's Best Mixers | Elevate Any Occasion with Q",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand homepage listing multiple products"
+      },
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Spectacular Kola, 6.7 fl oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product name match, product page"
+      }
+    ]
+  },
+  "SPARKLING ICE PEACH NECTARINE": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Sparkling Ice, Peach Nectarine Sparkling Water, Zero ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor all confirmed"
+      },
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Sparkling Ice® Peach Nectarine Sparkling Water, Zero Sugar",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor all confirmed"
+      },
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Sparkling Ice® Peach Nectarine Sparkling Water, Zero ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and flavor all confirmed"
+      }
+    ]
+  },
+  "Asepxia Body Wash 8.45 oz Body Wash, Medicated Acne, Scrub": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Asepxia Medicated Acne Body Wash Exfoliant Scrub for ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all explicitly confirmed"
+      }
+    ]
+  },
+  "STIRRINGS MOJITO": {
+    "split": "holdout",
+    "human": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Stirrings Simple Mojito Recipe",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and product type and variant match Mojito Mix"
+      },
+      {
+        "index": 6,
+        "error": "MISSED_LINK",
+        "title": "Craft the Perfect Cocktail, Explore and Buy Premium Mixers",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "listing page for Mojito mixers collection"
+      },
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Stirrings Simple Mojito Recipe",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and product type and variant match Mojito Mix"
+      }
+    ]
+  },
+  "Derma E Eczema Relief Lotion 6 oz Relief Lotion, Eczema": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Eczema Relief Cream",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "product type lotion vs cream"
+      }
+    ]
+  },
+  "Essence of Beauty Hand Lotion 2.5 oz Hand Lotion, Moisturizing, Sunblossom": {
+    "split": "dev",
+    "human": [
+      1,
+      7
+    ],
+    "model": [
+      1,
+      2,
+      5,
+      7,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Sun Blossom~ Body Lotions! New - Discontinued-Lot of 2",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and Sun Blossom lotion variant confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "antibacterial moisturizing hand lotion sun blossom",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, and Sun Blossom variant confirmed"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "Sun Blossom~ Body Lotions! New - Discontinued-Lot of 2",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and Sun Blossom lotion variant confirmed"
+      }
+    ]
+  },
+  "act ii butter popcorn 6 ea popcorn, butter": {
+    "split": "holdout",
+    "human": [
+      2
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "ACT II Butter Lovers Microwave Popcorn",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and butter variant confirmed"
+      },
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Act Ii Microwave Popcorn, Butter Lover 6 ea",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and butter variant confirmed"
+      },
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "ACT II Butter Lovers Microwave Popcorn, 6 ct 2.75 oz Bags",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and butter variant confirmed"
+      },
+      {
+        "index": 10,
+        "error": "FALSE_LINK",
+        "title": "Act Ii Microwave Popcorn, Butter Lover 6 ea | Unpopped",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and butter variant confirmed"
+      }
+    ]
+  },
+  "Emu Lemongrass Hand Sanitizer Mist 2.2 oz Hand Sanitizer Mist, Lemongrass": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 6,
+        "error": "MISSED_LINK",
+        "title": "HAND SANITIZER MIST LEMONGRASS- alcohol spray",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "no brand, generic drug info"
+      }
+    ]
+  },
+  "V8 V-Fusion 100% Juice 6 ea 100% Juice, Pomegranate Blueberry": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "model": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "MISSED_LINK",
+        "title": "100% Juice Pomegranate Blueberry Juice",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "brand missing, generic juice blend"
+      },
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "V8 V-Fusion 100% Pomegranate Blueberry Juice No ...",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "formulation states no sugar added, differs from upload"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "V8 Blends 100% Juice Pomegranate Blueberry Juice",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and exact product variant confirmed"
+      }
+    ]
+  },
+  "ALOHA PRTN PWDR VANILLA         1 EA": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 9,
+        "error": "MISSED_LINK",
+        "title": "Best Vanilla Protein Powder - ALOHA",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "category page listing vanilla protein powders"
+      }
+    ]
+  },
+  "Porcelana Skin Lightening Cream 3 oz Skin Lightening Cream, Fade Dark Spots Daytime Treatment": {
+    "split": "holdout",
+    "human": [
+      2,
+      5,
+      6,
+      7,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "Porcelana Daytime Hydration Skin Lightening Cream ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, daytime cream variant confirmed"
+      },
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Porcelana Daytime Hydration Cream For Face & Body ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "daytime hydration cream variant matches uploaded product"
+      }
+    ]
+  },
+  "ChapStick Classic Collection Lip Care 3 ea Lip Care, Classic Collection": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "ChapStick Classic Lip Balm",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "classic original only, not full classic collection"
+      },
+      {
+        "index": 7,
+        "error": "FALSE_LINK",
+        "title": "Spearmint, Cherry, and Strawberry Lip Balm, 0.15 Ea ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and classic collection variant confirmed"
+      },
+      {
+        "index": 9,
+        "error": "MISSED_LINK",
+        "title": "Chap Stick Lip Care, Classic Original 3 ea",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "classic original only, not full classic collection"
+      }
+    ]
+  },
+  "health warrior pumpkin seed bar dark chocolate 1.23 oz pumpkin seed bar, dark chocolate flavor": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 10,
+        "error": "MISSED_LINK",
+        "title": "Health Warrior Organic Pumpkin Seeds Bars, Dark ...",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "contains peanut, different variant"
+      }
+    ]
+  },
+  "Carbon Theory Tea Tree Oil & Citric Acid Breakout Control Facial Purifying Tonic 8.45 fl oz Facial Purifying Tonic, Breakout Control, Tea Tree Oil & Citric Acid": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Facial Purifying Tonic",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and product variant confirmed, variant name shortened"
+      },
+      {
+        "index": 6,
+        "error": "FALSE_LINK",
+        "title": "Facial Purifying Tonic | Anti-acne skincare",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, and variant explicitly confirmed"
+      },
+      {
+        "index": 10,
+        "error": "FALSE_LINK",
+        "title": "Facial Purifying Tonic",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and product variant confirmed, variant name shortened"
+      }
+    ]
+  },
+  "For Tots Apple White Grape Juice Beverage, Apple White Grape": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 6,
+        "error": "MISSED_LINK",
+        "title": "Mott's ® for Tots Apple White Grape",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, flavor implied but not explicitly stated"
+      },
+      {
+        "index": 10,
+        "error": "MISSED_LINK",
+        "title": "Mott's For Tots Apple White Grape Juice - 64 Fl Oz Bottle",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, flavor implied but not explicitly stated"
+      }
+    ]
+  },
+  "Cocoa Krispies Cereal Bar 5 ea Cereal Bar, Chewy, Chocolate": {
+    "split": "dev",
+    "human": [
+      2
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "EWG's Food Scores | Cocoa Krispies Chocolate Chewy ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Cocoa Krispies Chewy Granola Bar Chocolate",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "Kellogg's® Cocoa Krispies® Chewy Granola Bar Chocolate",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Cocoa Krispies Chewy Granola Bar Chocolate Kellogg ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand Kellogg's, product Cocoa Krispies Cereal Bar, chocolate flavor confirmed"
+      }
+    ]
+  },
+  "oaza cacao mocha cold brew coffee + electrolytes coffee, cold brew, electrolytes, cacao mocha": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      7,
+      8
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Oaza Performance Cold Brew - Cacao Mocha",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Cacao Mocha Electrolyte Infused Cold Brew Coffee 11 fl oz ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "no brand, generic product description"
+      },
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "Cacao Mocha Electrolyte Infused Cold Brew Coffee 11 fl oz ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "no brand, generic product description"
+      },
+      {
+        "index": 9,
+        "error": "MISSED_LINK",
+        "title": "Cacao Mocha Electrolyte Infused Cold Brew Coffee 11 fl oz ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "no brand, generic product description"
+      }
+    ]
+  }
+}

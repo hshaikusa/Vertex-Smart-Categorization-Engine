@@ -1,0 +1,32 @@
+{
+  "Good Product": {
+    "product_title": "Chobani Greek Yogurt Vanilla 5.3oz",
+    "product_description": "",
+    "search_results": {
+      "1": "Title: Chobani Greek Yogurt Vanilla\nLink: http://chobani.com/vanilla\nSnippet: buy it"
+    },
+    "llm_trusted_search_results": [
+      1
+    ]
+  },
+  "Bad String": {
+    "original_value": "oops a string",
+    "llm_trusted_search_results": []
+  },
+  "Bad List": {
+    "original_value": [
+      1,
+      2,
+      3
+    ],
+    "llm_trusted_search_results": []
+  },
+  "Bad Null": {
+    "original_value": null,
+    "llm_trusted_search_results": []
+  },
+  "Bad Number": {
+    "original_value": 42,
+    "llm_trusted_search_results": []
+  }
+}

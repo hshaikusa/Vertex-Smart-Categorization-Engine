@@ -1,0 +1,1311 @@
+{
+  "Cookie Chips Ahoy Chunky KS": {
+    "split": "dev",
+    "human": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "CHIPS AHOY! | Mondelēz International Foodservice",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and chunky cookie variant confirmed"
+      }
+    ]
+  },
+  "BTL Cabernet Sauvignon, Caymus Vineyards Plum, dried fruit, chocolate, oak. Full bodied.": {
+    "split": "dev",
+    "human": [
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      3,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "MISSED_LINK",
+        "title": "Caymus",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand page without specific product details"
+      },
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "Bar & Retail - Caymus Vineyards Cabernet ... - Wine on High",
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product (85% Sauvignon Blanc, 15% Chardonnay)"
+      },
+      {
+        "index": 6,
+        "error": "MISSED_LINK",
+        "title": "Caymus",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand page without specific product details"
+      },
+      {
+        "index": 7,
+        "error": "FALSE_LINK",
+        "title": "Caymus 50 Anniversary 1 LT Cabernet Sav 2022 | California",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "same brand, type, and variant (Cabernet Sauvignon 2022)"
+      }
+    ]
+  },
+  "Hemp Cream 2 Pack for Stress Support, Achy Muscle Relief, Fast Acting, Sooth Arthritis & Common Athletic Injuries, 2 (1oz)": {
+    "split": "holdout",
+    "human": [
+      1,
+      5,
+      8
+    ],
+    "model": [],
+    "product_is_specific": false,
+    "errors": [
+      {
+        "index": 1,
+        "error": "MISSED_LINK",
+        "title": "UNCLE BUDS @ Amazon.com:",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "listing page without clear brand or variant"
+      },
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "Hemp Cream 2 Pack for Stress Support, Achy Muscle ...",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "listing page without clear brand or variant"
+      },
+      {
+        "index": 8,
+        "error": "MISSED_LINK",
+        "title": "Hemp Cream 2 Pack for Stress Support, Achy Muscle ...",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "listing page without clear brand or variant"
+      }
+    ]
+  },
+  "Compatible Epson 502 T502 Refill Ink Bottles Replacement for Ecotank ET-2750 ET-3750 ET-4750 ET-2760 ET-3760 ET-4760 ET-2700 ET-3700 ET-3710 ET-15000 ST-2000 ST-3000 ST-4000 - 4 Pack": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Compatible 502 T502 Refill Ink Bottles for Epson ...",
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different product type and generic listing"
+      }
+    ]
+  },
+  "Fruity Pebbles Marshmallow Treats Cereal Bars 0.78 oz Cereal Bars, Marshmallow, Treats": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Marshmallow Cereal Bar Treats (Pack of 3) 8 Count Boxes",
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "product type and variant differ (generic marshmallow cereal bars)"
+      },
+      {
+        "index": 6,
+        "error": "MISSED_LINK",
+        "title": "Marshmallow Cereal Bar Treats (Pack of 3) 8 Count Boxes",
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "product type and variant differ (generic marshmallow cereal bars)"
+      },
+      {
+        "index": 8,
+        "error": "MISSED_LINK",
+        "title": "Post Fruity Pebbles Treats Marshmallow Cereal Bars, 0.78 Oz ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.5,
+        "reason": "no brand or product variant stated, unrelated product listing"
+      },
+      {
+        "index": 10,
+        "error": "MISSED_LINK",
+        "title": "Fruity Pebbles Cereal Bars, Marshmallow, Treats 8 ea",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.5,
+        "reason": "no brand stated, generic product listing"
+      }
+    ]
+  },
+  "CVS Pharmacy Pore Clearing Pads 90 ea Pore Clearing Pads, Daily": {
+    "split": "dev",
+    "human": [
+      6
+    ],
+    "model": [
+      3,
+      6
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "CVS DAILY PORE CLEARING PADS- salicylic acid swab",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product match (CVS Pharmacy Pore Clearing Pads)"
+      }
+    ]
+  },
+  "NATURES TRUTH ESSENTIAL OIL FRANKINCENSE": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "88 Biloxi – Nature's Truth Essential Oil, Pure, Frankincense ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "brand not confirmed, no brand mention in snippet or URL"
+      }
+    ]
+  },
+  "Thomas Moore Feed Bird Seed 20 lb Bird Seed, Texas Wild": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "MISSED_LINK",
+        "title": "Wild Bird Seed",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "generic product line page without specific variant"
+      }
+    ]
+  },
+  "Pastorelli Pizza Crust 3 ea Pizza Crust, Ultra Thin & Crispy, Roman Pizzeria Style, 100% Whole Wheat": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "Ultra Thin Whole Wheat Pizza Crust - 7-inch 5-pack ...",
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.7,
+        "reason": "same brand and type but variant size/count differs and no Roman style stated"
+      },
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Pastorelli® Whole Wheat Pizza Crust, Ultra Thin and ...",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, variant not fully stated but likely same"
+      },
+      {
+        "index": 7,
+        "error": "MISSED_LINK",
+        "title": "Pastorelli® Whole Wheat Pizza Crust, Ultra Thin and ...",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type match, variant not fully stated but likely same"
+      }
+    ]
+  },
+  "Anti-Itch Soothing Wipes - 1% Pramoxine Hydrochloride": {
+    "split": "dev",
+    "human": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "model": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "The Honey Pot Anti-Itch Wipes with 1% Pramoxine & Witch ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, and formulation match"
+      },
+      {
+        "index": 7,
+        "error": "MISSED_LINK",
+        "title": "ANTI-ITCH SOOTHING WIPES 1 PRAMOXINE HYDROCHLORIDE",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "generic drug info, no brand match"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "The Honey Pot Anti-Itch Wipes with 1% Pramoxine & Witch ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, and formulation match"
+      },
+      {
+        "index": 10,
+        "error": "FALSE_LINK",
+        "title": "The Honey Pot Anti-Itch Soothing Wipes",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product, and formulation match"
+      }
+    ]
+  },
+  "GUM TTHBRSH CRAYOLA MARKER TWIN PACK": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "model": [
+      1,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "GUM® Crayola™ Kids' Marker Toothbrush",
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "variant not explicitly stated, only single toothbrush shown"
+      }
+    ]
+  },
+  "Oils of Aloha Dry Lip Therapy 0.15 oz Dry Lip Therapy, Strawberry-Guava": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "KUKUIae Natural Dry Lip Therapy Strawberry-Guava",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      },
+      {
+        "index": 7,
+        "error": "FALSE_LINK",
+        "title": "KUKUIae Natural Dry Lip Therapy Strawberry-Guava",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, product type, and strawberry guava flavor confirmed"
+      }
+    ]
+  },
+  "HERSHEY'S Natural Unsweetened Cocoa Powder Can, 8 oz Cocoa, 100% Cacao": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 8,
+        "error": "FALSE_LINK",
+        "title": "Hershey's Cocoa, 100% Cacao 8 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, variant all confirmed"
+      },
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "Hershey's Cocoa, 100% Cacao 8 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, variant all confirmed"
+      }
+    ]
+  },
+  "Bubly Sprkln Lime 16z Cn": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 9,
+        "error": "FALSE_LINK",
+        "title": "Bubly Enhanced Sparkling Water - Lime - 16oz Can",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all confirmed"
+      }
+    ]
+  },
+  "Post-op Medical Walking Shoe Orthopedic Broken Foot and Toe Fracture Surgical Walking Boot": {
+    "split": "holdout",
+    "human": [],
+    "model": [
+      1,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "BraceAbility Post Op Shoe Foot Brace - Orthopedic ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product type confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "BraceAbility Post-op Shoe for Broken Foot Toe Surgical ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product type confirmed"
+      }
+    ]
+  },
+  "2025 House of Doolittle 5\" x 8\" Daily Appointment Book Faux Leather Cover Black (28802-25)": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "2025 House of Doolittle 5\" x 8\" Daily Appointment Book, Faux ...",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand and type confirmed, variant not stated but likely same"
+      }
+    ]
+  },
+  "Baby Buddy Toothbrush 1 ea Toothbrush, Baby's 1st, Stage 4 (4+ Months)": {
+    "split": "dev",
+    "human": [
+      1,
+      3
+    ],
+    "model": [
+      3,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "MISSED_LINK",
+        "title": "Baby's First Toothbrush with Case | BabyBuddy",
+        "verdict": "different_variant",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "brand matches but variant (stage 4) not confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "1 Pack Baby Buddy Babys 1st Toothbrush teether 4+ ...",
+        "verdict": "match",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand and type match, variant not explicitly stated but likely same"
+      }
+    ]
+  },
+  "Mariquitas Plantain Strips 12 oz Plantain Strips, Classic": {
+    "split": "dev",
+    "human": [
+      4,
+      5,
+      7,
+      9
+    ],
+    "model": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "Mariquitas Classic Plantain Chips - Shop Bananas at H-E-B",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and classic variant confirmed"
+      },
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Mariquitas Classic Original Plantain Chips, 3 oz. Bags (8 ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and classic original variant confirmed"
+      }
+    ]
+  },
+  "Coleman All-Purpose Propane Single Gas Cylinder": {
+    "split": "holdout",
+    "human": [
+      1,
+      3,
+      4
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Coleman Propane Cylinders - 16 Oz (12 Pack)",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Coleman 1lb Propane Cylinder: Patio Canister Fuel, 16oz ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all confirmed"
+      }
+    ]
+  },
+  "Olay Total Effects Whip Active with Sunscreen Broad Spectrum SPF 40 Moisturizer 50 oz Moisturizer, Active, with Sunscreen, Broad Spectrum SPF 40": {
+    "split": "dev",
+    "human": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "model": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Olay Moisturizer, Active, With Sunscreen, Broad Spectrum ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, variant SPF 40 confirmed"
+      }
+    ]
+  },
+  "Fresca Sparkling Peach Citrus Soda Water 12 oz Soda Water, Sparkling, Peach Citrus": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Fresca® - Sparkling Flavored Soda",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.6,
+        "reason": "generic brand page, no specific flavor"
+      }
+    ]
+  },
+  "WD - Blue 1TB PC Internal Hard Drive for Laptops": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model": [
+      1,
+      3
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "1TB WD Blue PC Desktop Hard Drive",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "desktop variant, not laptop"
+      },
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Western Digital WD Blue 3.5\" Hard Drive 1TB 7200 RPM",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "desktop variant, 7200 RPM, not laptop"
+      },
+      {
+        "index": 5,
+        "error": "MISSED_LINK",
+        "title": "WD Blue 1TB PC HDD - 7200 RPM SATA 6 Gb/s 64MB ...",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "desktop variant, 7200 RPM, not laptop"
+      }
+    ]
+  },
+  "BULLETPROOF CLLN PRTN PWD CHOC   17.6 OZ": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      5,
+      9,
+      10
+    ],
+    "model": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 6,
+        "error": "FALSE_LINK",
+        "title": "Bulletproof Chocolate Collagen Protein Powder with MCT ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size match"
+      },
+      {
+        "index": 7,
+        "error": "FALSE_LINK",
+        "title": "Chocolate Collagen Peptides Powder, 17.6oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size match"
+      }
+    ]
+  },
+  "MEDSOURCE Glucose Test Solution": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "MEDSOURCE MS-76016 Glucose Test Solution,Plastic ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product name match exactly"
+      },
+      {
+        "index": 6,
+        "error": "FALSE_LINK",
+        "title": "MEDSOURCE Glucose Test Solution: Plastic, Large LCD ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product name match exactly"
+      }
+    ]
+  },
+  "Every Man Jack Face Lotion 3.2 oz Face Lotion, Daily Protection": {
+    "split": "dev",
+    "human": [
+      2,
+      5
+    ],
+    "model": [
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "Face Lotion for Men, Moisturizer",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "category page for moisturizers, no specific product"
+      }
+    ]
+  },
+  "Forplay Prepair Spermicidal Water Based Personal Lubricant, 5.2 oz": {
+    "split": "dev",
+    "human": [
+      2,
+      4
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "ForPlay",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and spermicidal lubricant type confirmed"
+      },
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Prepair Spermicidal Lubricant 5.2oz Tube - Water-Based ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "exact product and formulation confirmed"
+      },
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Customer reviews for Forplay Prepair Spermicidal Water ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "customer reviews for exact product title"
+      }
+    ]
+  },
+  "Crayola Trolls World Tour Color & Sticker Book 1 ea": {
+    "split": "dev",
+    "human": [
+      2,
+      4
+    ],
+    "model": [
+      1,
+      2,
+      4
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "Crayola Trolls World Tour Color & Sticker Set",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and variant confirmed in title and snippet"
+      }
+    ]
+  },
+  "Kinderï¿½s Mild Barbecue Sauce - 15.5 Oz": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Kinder's Mild BBQ Sauce 15.5oz",
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.9,
+        "reason": "flavor 'Hickory Brown Sugar' differs from 'Mild' flavor"
+      }
+    ]
+  },
+  "Flame King 3 lbs. Refillable Steel Propane Tank With OPD Valve and Built-in Site Gauge": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "Flame King 3 lbs. Refillable Steel Propane Tank with OPD ...",
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "bundle with 10LB tank, different product type"
+      }
+    ]
+  },
+  "Kitu Sup Cof SwtCrm PlntB11ozC": {
+    "split": "holdout",
+    "human": [
+      1,
+      2
+    ],
+    "model": [
+      1,
+      2,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Super Coffee Enhanced Coffee Beverage, Sweet Cream ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, product type, flavor, size match"
+      }
+    ]
+  },
+  "Orthomen Knee Brace Booster for mild to moderate knee osteoarthritis (OA)(M/Right)": {
+    "split": "dev",
+    "human": [
+      1
+    ],
+    "model": [
+      1,
+      3
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Dr. Medical NWT Orthomen Knee Brace Booster for mild to ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, variant (booster, mild to moderate OA) confirmed"
+      }
+    ]
+  },
+  "General Tso's Chicken, 12 oz": {
+    "split": "dev",
+    "human": [],
+    "model": [
+      1,
+      2
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "General Tso's Chicken, 12 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
+      },
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "Whole Foods Market, General Tso's Chicken, 12 oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and product exactly match Whole Foods Market General Tso's Chicken 12 oz"
+      }
+    ]
+  },
+  "ACT TP KIDS WILD WATERMELON": {
+    "split": "dev",
+    "human": [
+      1,
+      3,
+      4
+    ],
+    "model": [
+      1
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 3,
+        "error": "MISSED_LINK",
+        "title": "ACT Kids Anticavity Fluoride Toothpaste, Wild Watermelon, ...",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "toothpaste, not mouthwash"
+      },
+      {
+        "index": 4,
+        "error": "MISSED_LINK",
+        "title": "Act Kids' Wild Toothpaste - Watermelon - 4.6oz",
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "toothpaste, not mouthwash"
+      }
+    ]
+  },
+  "Biore Clay Mask 4 ea Clay Mask, Instant Warming, Blue Agave + Baking Soda": {
+    "split": "dev",
+    "human": [
+      2,
+      3,
+      5
+    ],
+    "model": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 4,
+        "error": "FALSE_LINK",
+        "title": "4 x .25oz 4 packs Biore Blue Agave & Baking Soda Instant ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, variant, and product type explicitly confirmed"
+      }
+    ]
+  },
+  "Marketside New York Deli Sub Sandwich, 14 oz, 1 Count (Fresh)": {
+    "split": "dev",
+    "human": [
+      1,
+      2,
+      3
+    ],
+    "model": [
+      1,
+      3
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "Marketside Sandwiches in Deli(23)",
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "category listing page for Marketside sandwiches"
+      }
+    ]
+  },
+  "Sway Orange 12oz Can": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 5,
+        "error": "FALSE_LINK",
+        "title": "Sway Energy Orange 12oz",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand and flavor confirmed in title and snippet"
+      }
+    ]
+  },
+  "Dove Drk Choc PB 2.75oz": {
+    "split": "holdout",
+    "human": [
+      4,
+      5
+    ],
+    "model": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 1,
+        "error": "FALSE_LINK",
+        "title": "DOVE Large PROMISES Dark Chocolate & Peanut Butter ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      },
+      {
+        "index": 2,
+        "error": "FALSE_LINK",
+        "title": "DOVE Large PROMISES Dark Chocolate Peanut Butter ...",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      },
+      {
+        "index": 3,
+        "error": "FALSE_LINK",
+        "title": "Dove Large Promises Dark Chocolate Peanut Butter ... - CVS",
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size all match"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "CHOBANI GRK YGT VAN 5.3Z CP": {
+    "split": "holdout",
+    "human": [
+      1,
+      2,
+      5
+    ],
+    "model": [
+      1,
+      5
+    ],
+    "product_is_specific": true,
+    "errors": [
+      {
+        "index": 2,
+        "error": "MISSED_LINK",
+        "title": "Chobani Non-Fat Greek Yogurt Vanilla 32 oz tub",
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "same brand and flavor but different size (32 oz tub vs 5.3 oz cup)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Bad Null": {
+    "status": "invalid_product_format",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Bad List": {
+    "status": "invalid_product_format",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Bad String": {
+    "status": "invalid_product_format",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Bad Number": {
+    "status": "invalid_product_format",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Good Product": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Chobani Greek Yogurt Vanilla",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, and vanilla flavor explicitly confirmed"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Honest Kids Berry Berry Good Lemonade 6pk": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Honest Kids Berry Berry Good Lemonade",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, flavor, and product type match"
+      },
+      "2": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "different flavor (Appley Ever After)"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand and flavor match"
+      },
+      "4": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "listing page with multiple flavors"
+      },
+      "5": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "review roundup, multiple products"
+      }
+    }
+  }
+}

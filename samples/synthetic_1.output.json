@@ -1,0 +1,21 @@
+{
+  "Honest Kids Berry Berry Good Lemonade 6pk": {
+    "product_title": "Honest Kids Berry Berry Good Lemonade 6pk",
+    "product_description": "juice drink, berry lemonade",
+    "search_results": {
+      "1": "Title: Honest Kids Berry Berry Good Lemonade, 6 fl oz pouches\nLink: https://www.example-grocer.com/honest-kids-berry-berry-good-lemonade\nSnippet: Organic juice drink with berry lemonade flavor. Ingredients: filtered water, organic lemon juice, organic cane sugar, organic blueberry juice...",
+      "2": "Title: Honest Kids Appley Ever After Organic Juice Drink\nLink: https://www.example-grocer.com/honest-kids-appley-ever-after\nSnippet: Organic apple juice drink, 6 fl oz pouches. Ingredients: filtered water, organic apple juice concentrate...",
+      "3": "Title: Honest Kids Berry Berry Good Lemonade 40-pack\nLink: https://www.example-club.com/p/honest-kids-berry-lemonade-40ct\nSnippet: Berry Berry Good Lemonade, 40 pouches. Organic, no artificial sweeteners.",
+      "4": "Title: Honest Kids Juice Drinks | Variety Pack\nLink: https://www.honestkids.example/our-drinks\nSnippet: Explore all Honest Kids flavors: Appley Ever After, Super Fruit Punch, Berry Berry Good Lemonade...",
+      "5": "Title: Best Kids Juice Boxes: 2026 Reviews\nLink: https://www.parentblog.example/best-kids-juice\nSnippet: We taste-tested 15 kids juices including Honest Kids and Capri Sun."
+    },
+    "trusted_search_results": [
+      1,
+      3
+    ],
+    "llm_trusted_search_results": [
+      1,
+      3
+    ]
+  }
+}

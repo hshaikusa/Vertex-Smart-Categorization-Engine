@@ -1,0 +1,143 @@
+{
+  "Great Value 2% Reduced Fat Milk 1 Gallon ": {
+    "status": "no_results",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "AA ": {
+    "status": "abstain_empty_input",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Nature Valley Crunchy Granola Bars Oats N Honey 12 ct ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Nature Valley Crunchy Granola Bars Oats N Honey",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all match exactly"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different flavor (Peanut vs Oats N Honey)"
+      },
+      "4": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "variety pack includes multiple flavors, not single Oats N Honey"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all match exactly",
+        "dup_of": 1
+      }
+    }
+  },
+  "KIND Dark Chocolate Nuts and Sea Salt Bar 12 ct ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "KIND Dark Chocolate Nuts and Sea Salt Bar",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all match exactly"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor all match exactly"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "variant is Minis, different size/form factor"
+      },
+      "4": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different flavor (Cherry Cashew)"
+      }
+    }
+  },
+  "Simply Orange Pulp Free Orange Juice 52 fl oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Simply Orange Pulp Free Orange Juice",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all match"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant all match"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "variant pulp level differs (high pulp vs pulp free)"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "different brand (Tropicana)"
+      }
+    }
+  },
+  "Dove Body Wash Deep Moisture 22 oz ": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Dove Deep Moisture Body Wash",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant (Deep Moisture) match exactly"
+      },
+      "2": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant (Deep Moisture) match exactly"
+      },
+      "3": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "brand, type, variant match; size differs but ignored"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "variant differs (Men+Care Deep Clean) brand subline differs"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, variant match; pack size ignored"
+      }
+    }
+  }
+}

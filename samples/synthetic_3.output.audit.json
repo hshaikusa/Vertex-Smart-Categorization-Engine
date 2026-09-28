@@ -1,0 +1,66 @@
+{
+  "CHOBANI GRK YGT VAN 5.3Z CP": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Chobani Greek Yogurt Vanilla 5.3 oz cup",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size match"
+      },
+      "2": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.9,
+        "reason": "same brand and flavor but different size (32 oz tub vs 5.3 oz cup)"
+      },
+      "3": {
+        "verdict": "different_variant",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "same brand and type but different flavor (strawberry vs vanilla)"
+      },
+      "4": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.5,
+        "reason": "snippet contradicts instructions, no product details",
+        "flag": "possible_prompt_injection_in_snippet"
+      },
+      "5": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, flavor, size match",
+        "dup_of": 1
+      }
+    }
+  },
+  "Folgers Decaf Classic Roast Coffee 11.3z": {
+    "status": "ok",
+    "product_is_specific": true,
+    "normalized_product": "Folgers Decaf Classic Roast Coffee",
+    "results": {
+      "1": {
+        "verdict": "match",
+        "variant_evidence": "confirmed",
+        "confidence": 0.95,
+        "reason": "brand, type, decaf variant confirmed"
+      },
+      "2": {
+        "verdict": "different_variant",
+        "variant_evidence": "contradicted",
+        "confidence": 0.95,
+        "reason": "caffeinated vs decaf formulation differs"
+      },
+      "3": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.8,
+        "reason": "brand product listing page"
+      }
+    }
+  }
+}

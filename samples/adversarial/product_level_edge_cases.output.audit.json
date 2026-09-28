@@ -1,0 +1,326 @@
+{
+  "results_as_list": {
+    "status": "no_results",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "missing_keys": {
+    "status": "no_results",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "empty_all": {
+    "status": "no_results",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "null_fields": {
+    "status": "no_results",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "nonnumeric_indices": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "bad index product",
+    "results": {},
+    "invalid_result_keys": [
+      "a",
+      "b"
+    ]
+  },
+  "huge_title": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "unknown",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "product title is generic or unbranded"
+      }
+    }
+  },
+  "injection_in_upload": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "uploaded title is not a product"
+      }
+    },
+    "upload_flag": "possible_prompt_injection_in_upload_fields"
+  },
+  "huge_result_title": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Normal Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand or specific product identified; result is generic or listing"
+      }
+    }
+  },
+  "title_len_2": {
+    "status": "abstain_empty_input",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "garbage_result_text": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "garbage text product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "no brand or product info in result"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "no brand or product info in result"
+      }
+    }
+  },
+  "null_result_value": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Null Result Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "empty search result"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "insufficient product info"
+      }
+    }
+  },
+  "whitespace_only": {
+    "status": "abstain_empty_input",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "injection_evasion": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Normal Sounding Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand or specific product identified"
+      }
+    }
+  },
+  "title_len_3": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "ABC",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "product not specific, no brand or variant"
+      }
+    }
+  },
+  "unicode_stress": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Generic Chocolate Milk",
+    "results": {
+      "1": {
+        "verdict": "different_product",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "brand unknown, language mismatch, generic chocolate milk"
+      }
+    }
+  },
+  "control_chars": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Weird Title With Control Chars",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.9,
+        "reason": "no brand or product type identified"
+      }
+    }
+  },
+  "exact_dup_content": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Dup Content Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand or specific product identified"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand or specific product identified",
+        "dup_of": 1
+      }
+    }
+  },
+  "missing_links": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "No Link Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand, generic product title"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand, generic product title"
+      },
+      "3": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "no brand, generic product title"
+      }
+    }
+  },
+  "too_many_results": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Many Results Product",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "3": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "4": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "5": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "6": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "7": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "8": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "9": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "10": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "11": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "12": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "13": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "14": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      },
+      "15": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 1.0,
+        "reason": "generic product title, no brand or variant"
+      }
+    },
+    "results_dropped": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+}

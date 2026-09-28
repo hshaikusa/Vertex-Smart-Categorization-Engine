@@ -1,0 +1,26 @@
+{
+  "FC": {
+    "status": "abstain_empty_input",
+    "product_is_specific": null,
+    "results": {}
+  },
+  "Banana": {
+    "status": "ok",
+    "product_is_specific": false,
+    "normalized_product": "Banana fresh fruit",
+    "results": {
+      "1": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic fruit, no specific brand in upload"
+      },
+      "2": {
+        "verdict": "generic_or_listing",
+        "variant_evidence": "not_stated",
+        "confidence": 0.95,
+        "reason": "generic fruit, no specific brand in upload"
+      }
+    }
+  }
+}

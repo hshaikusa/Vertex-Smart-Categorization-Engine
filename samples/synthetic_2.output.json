@@ -1,0 +1,22 @@
+{
+  "Banana": {
+    "product_title": "Banana",
+    "product_description": "fresh fruit",
+    "search_results": {
+      "1": "Title: Chiquita Bananas - Fresh\nLink: https://www.example-grocer.com/chiquita-bananas\nSnippet: Chiquita bananas, sold by the pound.",
+      "2": "Title: Banana - Wikipedia\nLink: https://en.wikipedia.example/wiki/Banana\nSnippet: A banana is an elongated, edible fruit."
+    },
+    "trusted_search_results": [],
+    "llm_trusted_search_results": []
+  },
+  "FC": {
+    "product_title": "FC",
+    "product_description": "",
+    "search_results": {
+      "1": "Title: FC Barcelona Official Store\nLink: https://store.fcb.example\nSnippet: Official jerseys",
+      "2": "Title: Fiber Choice Chewable Tablets\nLink: https://www.example-pharmacy.com/fiber-choice\nSnippet: Fiber supplement"
+    },
+    "trusted_search_results": [],
+    "llm_trusted_search_results": []
+  }
+}
